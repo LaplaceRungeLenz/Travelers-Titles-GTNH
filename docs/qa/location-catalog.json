@@ -1,0 +1,2475 @@
+{
+  "schemaVersion": 1,
+  "current": {
+    "biome": "minecraft:plains",
+    "biomeId": "1",
+    "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPPlains",
+    "biomeName": "Plains",
+    "types": "PLAINS",
+    "provider": "biomesoplenty.common.world.WorldProviderSurfaceBOP",
+    "dimensionId": "0",
+    "dimensionName": "Overworld",
+    "dimension": "minecraft:overworld",
+    "surfaceVisible": "true"
+  },
+  "biomes": [
+    {
+      "biome": "minecraft:ocean",
+      "biomeId": "0",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPOcean",
+      "biomeName": "Ocean",
+      "types": "OCEAN",
+      "resolvedTitle": "海洋"
+    },
+    {
+      "biome": "minecraft:plains",
+      "biomeId": "1",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPPlains",
+      "biomeName": "Plains",
+      "types": "PLAINS",
+      "resolvedTitle": "平原"
+    },
+    {
+      "biome": "minecraft:desert",
+      "biomeId": "2",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPDesert",
+      "biomeName": "Desert",
+      "types": "HOT,DRY,SANDY",
+      "resolvedTitle": "沙漠"
+    },
+    {
+      "biome": "minecraft:extreme_hills",
+      "biomeId": "3",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPExtremeHills",
+      "biomeName": "Extreme Hills",
+      "types": "MOUNTAIN,HILLS",
+      "resolvedTitle": "峭壁"
+    },
+    {
+      "biome": "minecraft:forest",
+      "biomeId": "4",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPForest",
+      "biomeName": "Forest",
+      "types": "FOREST",
+      "resolvedTitle": "森林"
+    },
+    {
+      "biome": "minecraft:taiga",
+      "biomeId": "5",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga",
+      "biomeName": "Taiga",
+      "types": "COLD,CONIFEROUS,FOREST",
+      "resolvedTitle": "针叶林"
+    },
+    {
+      "biome": "minecraft:swampland",
+      "biomeId": "6",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPSwamp",
+      "biomeName": "Swampland",
+      "types": "WET,SWAMP",
+      "resolvedTitle": "沼泽"
+    },
+    {
+      "biome": "minecraft:river",
+      "biomeId": "7",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPRiver",
+      "biomeName": "River",
+      "types": "RIVER",
+      "resolvedTitle": "河流"
+    },
+    {
+      "biome": "minecraft:hell",
+      "biomeId": "8",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPHell",
+      "biomeName": "Hell",
+      "types": "HOT,DRY,NETHER",
+      "resolvedTitle": "下界荒原"
+    },
+    {
+      "biome": "minecraft:sky",
+      "biomeId": "9",
+      "biomeClass": "chylex.hee.world.biome.BiomeGenHardcoreEnd",
+      "biomeName": "Sky",
+      "types": "COLD,DRY,END",
+      "resolvedTitle": "末地"
+    },
+    {
+      "biome": "minecraft:frozenocean",
+      "biomeId": "10",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenOcean",
+      "biomeName": "FrozenOcean",
+      "types": "COLD,OCEAN,SNOWY",
+      "resolvedTitle": "冻洋"
+    },
+    {
+      "biome": "minecraft:frozenriver",
+      "biomeId": "11",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenRiver",
+      "biomeName": "FrozenRiver",
+      "types": "COLD,RIVER,SNOWY",
+      "resolvedTitle": "冻河"
+    },
+    {
+      "biome": "minecraft:ice_plains",
+      "biomeId": "12",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPIcePlains",
+      "biomeName": "Ice Plains",
+      "types": "COLD,SNOWY,WASTELAND",
+      "resolvedTitle": "冰原"
+    },
+    {
+      "biome": "minecraft:ice_mountains",
+      "biomeId": "13",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenSnow",
+      "biomeName": "Ice Mountains",
+      "types": "COLD,MOUNTAIN,SNOWY",
+      "resolvedTitle": "雪山"
+    },
+    {
+      "biome": "minecraft:mushroomisland",
+      "biomeId": "14",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPMushroomIsland",
+      "biomeName": "MushroomIsland",
+      "types": "MUSHROOM",
+      "resolvedTitle": "蘑菇岛"
+    },
+    {
+      "biome": "minecraft:mushroomislandshore",
+      "biomeId": "15",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPMushroomIsland",
+      "biomeName": "MushroomIslandShore",
+      "types": "MUSHROOM,BEACH",
+      "resolvedTitle": "蘑菇岛岸"
+    },
+    {
+      "biome": "minecraft:beach",
+      "biomeId": "16",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenBeach",
+      "biomeName": "Beach",
+      "types": "BEACH",
+      "resolvedTitle": "沙滩"
+    },
+    {
+      "biome": "minecraft:deserthills",
+      "biomeId": "17",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPDesert",
+      "biomeName": "DesertHills",
+      "types": "HOT,DRY,HILLS,SANDY",
+      "resolvedTitle": "沙漠丘陵"
+    },
+    {
+      "biome": "minecraft:foresthills",
+      "biomeId": "18",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPForest",
+      "biomeName": "ForestHills",
+      "types": "FOREST,HILLS",
+      "resolvedTitle": "森林丘陵"
+    },
+    {
+      "biome": "minecraft:taigahills",
+      "biomeId": "19",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga",
+      "biomeName": "TaigaHills",
+      "types": "COLD,CONIFEROUS,FOREST,HILLS",
+      "resolvedTitle": "针叶林丘陵"
+    },
+    {
+      "biome": "minecraft:extreme_hills_edge",
+      "biomeId": "20",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPExtremeHills",
+      "biomeName": "Extreme Hills Edge",
+      "types": "MOUNTAIN",
+      "resolvedTitle": "峭壁边缘"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "biomeId": "21",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPJungle",
+      "biomeName": "Jungle",
+      "types": "HOT,DENSE,WET,JUNGLE",
+      "resolvedTitle": "丛林"
+    },
+    {
+      "biome": "minecraft:junglehills",
+      "biomeId": "22",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPJungle",
+      "biomeName": "JungleHills",
+      "types": "HOT,DENSE,WET,JUNGLE,HILLS",
+      "resolvedTitle": "丛林丘陵"
+    },
+    {
+      "biome": "minecraft:jungleedge",
+      "biomeId": "23",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPJungle",
+      "biomeName": "JungleEdge",
+      "types": "HOT,WET,JUNGLE,FOREST",
+      "resolvedTitle": "丛林边缘"
+    },
+    {
+      "biome": "minecraft:deep_ocean",
+      "biomeId": "24",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenOcean",
+      "biomeName": "Deep Ocean",
+      "types": "OCEAN",
+      "resolvedTitle": "深海"
+    },
+    {
+      "biome": "minecraft:stone_beach",
+      "biomeId": "25",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenStoneBeach",
+      "biomeName": "Stone Beach",
+      "types": "BEACH",
+      "resolvedTitle": "石滩"
+    },
+    {
+      "biome": "minecraft:cold_beach",
+      "biomeId": "26",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenBeach",
+      "biomeName": "Cold Beach",
+      "types": "COLD,SNOWY,BEACH",
+      "resolvedTitle": "寒冷海滩"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "biomeId": "27",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPBirchForest",
+      "biomeName": "Birch Forest",
+      "types": "FOREST",
+      "resolvedTitle": "白桦林"
+    },
+    {
+      "biome": "minecraft:birch_forest_hills",
+      "biomeId": "28",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPBirchForest",
+      "biomeName": "Birch Forest Hills",
+      "types": "FOREST,HILLS",
+      "resolvedTitle": "白桦林丘陵"
+    },
+    {
+      "biome": "minecraft:roofed_forest",
+      "biomeId": "29",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPRoofedForest",
+      "biomeName": "Roofed Forest",
+      "types": "DENSE,SPOOKY,FOREST",
+      "resolvedTitle": "黑森林"
+    },
+    {
+      "biome": "minecraft:cold_taiga",
+      "biomeId": "30",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga",
+      "biomeName": "Cold Taiga",
+      "types": "COLD,CONIFEROUS,FOREST,SNOWY",
+      "resolvedTitle": "寒冷针叶林"
+    },
+    {
+      "biome": "minecraft:cold_taiga_hills",
+      "biomeId": "31",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPTaiga",
+      "biomeName": "Cold Taiga Hills",
+      "types": "COLD,CONIFEROUS,FOREST,HILLS,SNOWY",
+      "resolvedTitle": "寒冷针叶林丘陵"
+    },
+    {
+      "biome": "minecraft:mega_taiga",
+      "biomeId": "32",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenTaiga",
+      "biomeName": "Mega Taiga",
+      "types": "COLD,CONIFEROUS,FOREST",
+      "resolvedTitle": "巨型针叶林"
+    },
+    {
+      "biome": "minecraft:mega_taiga_hills",
+      "biomeId": "33",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenTaiga",
+      "biomeName": "Mega Taiga Hills",
+      "types": "COLD,CONIFEROUS,FOREST,HILLS",
+      "resolvedTitle": "巨型针叶林丘陵"
+    },
+    {
+      "biome": "minecraft:extreme_hills_plus",
+      "biomeId": "34",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenHills",
+      "biomeName": "Extreme Hills+",
+      "types": "SPARSE,FOREST,MOUNTAIN",
+      "resolvedTitle": "峭壁+"
+    },
+    {
+      "biome": "minecraft:savanna",
+      "biomeId": "35",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPSavanna",
+      "biomeName": "Savanna",
+      "types": "HOT,SPARSE,SAVANNA,PLAINS",
+      "resolvedTitle": "热带草原"
+    },
+    {
+      "biome": "minecraft:savanna_plateau",
+      "biomeId": "36",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPSavanna",
+      "biomeName": "Savanna Plateau",
+      "types": "HOT,SPARSE,SAVANNA,PLAINS",
+      "resolvedTitle": "热带高原"
+    },
+    {
+      "biome": "minecraft:mesa",
+      "biomeId": "37",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPMesa",
+      "biomeName": "Mesa",
+      "types": "MESA,SANDY",
+      "resolvedTitle": "恶地"
+    },
+    {
+      "biome": "minecraft:mesa_plateau_f",
+      "biomeId": "38",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPMesa",
+      "biomeName": "Mesa Plateau F",
+      "types": "SPARSE,MESA,SANDY",
+      "resolvedTitle": "森林恶地高原"
+    },
+    {
+      "biome": "minecraft:mesa_plateau",
+      "biomeId": "39",
+      "biomeClass": "biomesoplenty.common.biome.overridden.BiomeGenBOPMesa",
+      "biomeName": "Mesa Plateau",
+      "types": "MESA,SANDY",
+      "resolvedTitle": "恶地高原"
+    },
+    {
+      "biome": "biomesoplenty:alps_forest",
+      "biomeId": "40",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenAlpsForest",
+      "biomeName": "Alps Forest",
+      "types": "COLD,FOREST,MOUNTAIN,SNOWY",
+      "resolvedTitle": "Alps Forest"
+    },
+    {
+      "biome": "biomesoplenty:alps",
+      "biomeId": "41",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenAlps",
+      "biomeName": "Alps",
+      "types": "COLD,MOUNTAIN,SNOWY",
+      "resolvedTitle": "Alps"
+    },
+    {
+      "biome": "biomesoplenty:arctic",
+      "biomeId": "42",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenArctic",
+      "biomeName": "Arctic",
+      "types": "COLD,DEAD,SNOWY,WASTELAND",
+      "resolvedTitle": "Arctic"
+    },
+    {
+      "biome": "biomesoplenty:bamboo_forest",
+      "biomeId": "43",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenBambooForest",
+      "biomeName": "Bamboo Forest",
+      "types": "DENSE,JUNGLE,LUSH,FOREST",
+      "resolvedTitle": "Bamboo Forest"
+    },
+    {
+      "biome": "biomesoplenty:bayou",
+      "biomeId": "44",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenBayou",
+      "biomeName": "Bayou",
+      "types": "WET,LUSH,OCEAN,RIVER,SWAMP",
+      "resolvedTitle": "Bayou"
+    },
+    {
+      "biome": "biomesoplenty:bog",
+      "biomeId": "45",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenBog",
+      "biomeName": "Bog",
+      "types": "WET,DEAD,FOREST,SWAMP",
+      "resolvedTitle": "Bog"
+    },
+    {
+      "biome": "biomesoplenty:boreal_forest",
+      "biomeId": "47",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenBorealForest",
+      "biomeName": "Boreal Forest",
+      "types": "DENSE,CONIFEROUS,LUSH,FOREST",
+      "resolvedTitle": "Boreal Forest"
+    },
+    {
+      "biome": "biomesoplenty:brushland",
+      "biomeId": "48",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenBrushland",
+      "biomeName": "Brushland",
+      "types": "HOT,DRY,SAVANNA,PLAINS",
+      "resolvedTitle": "Brushland"
+    },
+    {
+      "biome": "biomesoplenty:canyon",
+      "biomeId": "49",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenCanyon",
+      "biomeName": "Canyon",
+      "types": "HOT,SPARSE,DRY,MOUNTAIN,HILLS,SANDY",
+      "resolvedTitle": "Canyon"
+    },
+    {
+      "biome": "biomesoplenty:canyon_ravine",
+      "biomeId": "50",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenCanyonRavine",
+      "biomeName": "Canyon Ravine",
+      "types": "HOT,DRY,HILLS,SANDY",
+      "resolvedTitle": "Canyon Ravine"
+    },
+    {
+      "biome": "biomesoplenty:chaparral",
+      "biomeId": "51",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenChaparral",
+      "biomeName": "Chaparral",
+      "types": "SPARSE,PLAINS",
+      "resolvedTitle": "Chaparral"
+    },
+    {
+      "biome": "biomesoplenty:cherry_blossom_grove",
+      "biomeId": "52",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenCherryBlossomGrove",
+      "biomeName": "Cherry Blossom Grove",
+      "types": "LUSH,MAGICAL,FOREST",
+      "resolvedTitle": "Cherry Blossom Grove"
+    },
+    {
+      "biome": "biomesoplenty:coniferous_forest",
+      "biomeId": "53",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenConiferousForest",
+      "biomeName": "Coniferous Forest",
+      "types": "DENSE,CONIFEROUS,FOREST,HILLS",
+      "resolvedTitle": "Coniferous Forest"
+    },
+    {
+      "biome": "biomesoplenty:coral_reef",
+      "biomeId": "54",
+      "biomeClass": "biomesoplenty.common.biome.overworld.ocean.BiomeGenCoralReef",
+      "biomeName": "Coral Reef",
+      "types": "OCEAN,RIVER",
+      "resolvedTitle": "Coral Reef"
+    },
+    {
+      "biome": "biomesoplenty:crag",
+      "biomeId": "56",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenCrag",
+      "biomeName": "Crag",
+      "types": "DRY,SPOOKY,DEAD,MOUNTAIN,WASTELAND",
+      "resolvedTitle": "Crag"
+    },
+    {
+      "biome": "biomesoplenty:dead_forest",
+      "biomeId": "57",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenDeadForest",
+      "biomeName": "Dead Forest",
+      "types": "SPARSE,SPOOKY,DEAD,FOREST",
+      "resolvedTitle": "Dead Forest"
+    },
+    {
+      "biome": "biomesoplenty:dead_swamp",
+      "biomeId": "58",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenDeadSwamp",
+      "biomeName": "Dead Swamp",
+      "types": "SPARSE,SPOOKY,DEAD,SWAMP",
+      "resolvedTitle": "Dead Swamp"
+    },
+    {
+      "biome": "biomesoplenty:deciduous_forest",
+      "biomeId": "59",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenDeciduousForest",
+      "biomeName": "Deciduous Forest",
+      "types": "DENSE,DRY,FOREST",
+      "resolvedTitle": "Deciduous Forest"
+    },
+    {
+      "biome": "biomesoplenty:dry_river",
+      "biomeId": "60",
+      "biomeClass": "biomesoplenty.common.biome.overworld.tech.BiomeGenDryRiver",
+      "biomeName": "Dry River",
+      "types": "HOT,DRY,PLAINS,SANDY",
+      "resolvedTitle": "Dry River"
+    },
+    {
+      "biome": "biomesoplenty:eucalyptus_forest",
+      "biomeId": "61",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenEucalyptusForest",
+      "biomeName": "Eucalyptus Forest",
+      "types": "HOT,WET,PLAINS",
+      "resolvedTitle": "Eucalyptus Forest"
+    },
+    {
+      "biome": "biomesoplenty:fen",
+      "biomeId": "62",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenFen",
+      "biomeName": "Fen",
+      "types": "WET,DEAD,FOREST,SWAMP",
+      "resolvedTitle": "Fen"
+    },
+    {
+      "biome": "biomesoplenty:flower_field",
+      "biomeId": "63",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenFlowerField",
+      "biomeName": "Flower Field",
+      "types": "LUSH,PLAINS",
+      "resolvedTitle": "Flower Field"
+    },
+    {
+      "biome": "biomesoplenty:frost_forest",
+      "biomeId": "64",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenFrostForest",
+      "biomeName": "Frost Forest",
+      "types": "COLD,SPARSE,FOREST,SNOWY",
+      "resolvedTitle": "Frost Forest"
+    },
+    {
+      "biome": "biomesoplenty:fungi_forest",
+      "biomeId": "65",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenFungiForest",
+      "biomeName": "Fungi Forest",
+      "types": "WET,LUSH,MUSHROOM,MAGICAL,FOREST,SWAMP",
+      "resolvedTitle": "Fungi Forest"
+    },
+    {
+      "biome": "biomesoplenty:garden",
+      "biomeId": "66",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenGarden",
+      "biomeName": "Garden",
+      "types": "LUSH,MAGICAL,PLAINS",
+      "resolvedTitle": "Garden"
+    },
+    {
+      "biome": "biomesoplenty:glacier",
+      "biomeId": "67",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenGlacier",
+      "biomeName": "Glacier",
+      "types": "COLD,DEAD,HILLS,SNOWY",
+      "resolvedTitle": "Glacier"
+    },
+    {
+      "biome": "biomesoplenty:grassland",
+      "biomeId": "68",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenGrassland",
+      "biomeName": "Grassland",
+      "types": "SPARSE,LUSH,PLAINS,HILLS,SWAMP",
+      "resolvedTitle": "Grassland"
+    },
+    {
+      "biome": "biomesoplenty:grove",
+      "biomeId": "69",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenGrove",
+      "biomeName": "Grove",
+      "types": "DENSE,LUSH,FOREST,PLAINS",
+      "resolvedTitle": "Grove"
+    },
+    {
+      "biome": "biomesoplenty:heathland",
+      "biomeId": "70",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenHeathland",
+      "biomeName": "Heathland",
+      "types": "DRY,SAVANNA,PLAINS",
+      "resolvedTitle": "Heathland"
+    },
+    {
+      "biome": "biomesoplenty:highland",
+      "biomeId": "71",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenHighland",
+      "biomeName": "Highland",
+      "types": "SPARSE,MOUNTAIN,HILLS",
+      "resolvedTitle": "Highland"
+    },
+    {
+      "biome": "biomesoplenty:jade_cliffs",
+      "biomeId": "72",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenJadeCliffs",
+      "biomeName": "Jade Cliffs",
+      "types": "DENSE,FOREST,MOUNTAIN",
+      "resolvedTitle": "Jade Cliffs"
+    },
+    {
+      "biome": "biomesoplenty:kelp_forest",
+      "biomeId": "73",
+      "biomeClass": "biomesoplenty.common.biome.overworld.ocean.BiomeGenKelpForest",
+      "biomeName": "Kelp Forest",
+      "types": "OCEAN,RIVER,FOREST",
+      "resolvedTitle": "Kelp Forest"
+    },
+    {
+      "biome": "biomesoplenty:land_of_lakes",
+      "biomeId": "74",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenLandOfLakes",
+      "biomeName": "Land of Lakes",
+      "types": "WET,PLAINS",
+      "resolvedTitle": "Land of Lakes"
+    },
+    {
+      "biome": "biomesoplenty:land_of_lakes_marsh",
+      "biomeId": "75",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenLandOfLakesMarsh",
+      "biomeName": "Land of Lakes Marsh",
+      "types": "WET,SWAMP",
+      "resolvedTitle": "Land of Lakes Marsh"
+    },
+    {
+      "biome": "biomesoplenty:lavender_fields",
+      "biomeId": "76",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenLavenderFields",
+      "biomeName": "Lavender Fields",
+      "types": "SPARSE,LUSH,PLAINS",
+      "resolvedTitle": "Lavender Fields"
+    },
+    {
+      "biome": "biomesoplenty:lush_desert",
+      "biomeId": "77",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenLushDesert",
+      "biomeName": "Lush Desert",
+      "types": "HOT,DRY,SAVANNA,LUSH,SANDY",
+      "resolvedTitle": "Lush Desert"
+    },
+    {
+      "biome": "biomesoplenty:lush_river",
+      "biomeId": "78",
+      "biomeClass": "biomesoplenty.common.biome.overworld.tech.BiomeGenLushRiver",
+      "biomeName": "Lush River",
+      "types": "RIVER,PLAINS",
+      "resolvedTitle": "Lush River"
+    },
+    {
+      "biome": "biomesoplenty:lush_swamp",
+      "biomeId": "79",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenLushSwamp",
+      "biomeName": "Lush Swamp",
+      "types": "WET,LUSH,OCEAN,RIVER,SWAMP",
+      "resolvedTitle": "Lush Swamp"
+    },
+    {
+      "biome": "biomesoplenty:mangrove",
+      "biomeId": "80",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenMangrove",
+      "biomeName": "Mangrove",
+      "types": "WET,LUSH,OCEAN,RIVER,FOREST",
+      "resolvedTitle": "Mangrove"
+    },
+    {
+      "biome": "biomesoplenty:maple_woods",
+      "biomeId": "81",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenMapleWoods",
+      "biomeName": "Maple Woods",
+      "types": "COLD,FOREST",
+      "resolvedTitle": "Maple Woods"
+    },
+    {
+      "biome": "biomesoplenty:marsh",
+      "biomeId": "82",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenMarsh",
+      "biomeName": "Marsh",
+      "types": "SPARSE,WET,LUSH,OCEAN,RIVER,SWAMP",
+      "resolvedTitle": "Marsh"
+    },
+    {
+      "biome": "biomesoplenty:meadow_forest",
+      "biomeId": "83",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenMeadowForest",
+      "biomeName": "Meadow Forest",
+      "types": "LUSH,FOREST,PLAINS",
+      "resolvedTitle": "Meadow Forest"
+    },
+    {
+      "biome": "biomesoplenty:meadow",
+      "biomeId": "84",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenMeadow",
+      "biomeName": "Meadow",
+      "types": "LUSH,FOREST,PLAINS",
+      "resolvedTitle": "Meadow"
+    },
+    {
+      "biome": "biomesoplenty:moor",
+      "biomeId": "85",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenMoor",
+      "biomeName": "Moor",
+      "types": "SPARSE,WET,HILLS,SWAMP",
+      "resolvedTitle": "Moor"
+    },
+    {
+      "biome": "biomesoplenty:mountain",
+      "biomeId": "86",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenMountain",
+      "biomeName": "Mountain",
+      "types": "DRY,FOREST,MOUNTAIN",
+      "resolvedTitle": "Mountain"
+    },
+    {
+      "biome": "biomesoplenty:mystic_grove",
+      "biomeId": "87",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenMysticGrove",
+      "biomeName": "Mystic Grove",
+      "types": "WET,LUSH,MAGICAL,FOREST",
+      "resolvedTitle": "Mystic Grove"
+    },
+    {
+      "biome": "biomesoplenty:oasis",
+      "biomeId": "88",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenOasis",
+      "biomeName": "Oasis",
+      "types": "HOT,DRY,JUNGLE,LUSH,SANDY",
+      "resolvedTitle": "Oasis"
+    },
+    {
+      "biome": "biomesoplenty:ominous_woods",
+      "biomeId": "89",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenOminousWoods",
+      "biomeName": "Ominous Woods",
+      "types": "SPOOKY,DEAD,MAGICAL,FOREST,SWAMP",
+      "resolvedTitle": "Ominous Woods"
+    },
+    {
+      "biome": "biomesoplenty:orchard",
+      "biomeId": "90",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenOrchard",
+      "biomeName": "Orchard",
+      "types": "SPARSE,LUSH,FOREST,PLAINS",
+      "resolvedTitle": "Orchard"
+    },
+    {
+      "biome": "biomesoplenty:origin_valley",
+      "biomeId": "91",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenOriginValley",
+      "biomeName": "Origin Valley",
+      "types": "PLAINS",
+      "resolvedTitle": "Origin Valley"
+    },
+    {
+      "biome": "biomesoplenty:outback",
+      "biomeId": "92",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenOutback",
+      "biomeName": "Outback",
+      "types": "HOT,DRY,SAVANNA,PLAINS,SANDY",
+      "resolvedTitle": "Outback"
+    },
+    {
+      "biome": "biomesoplenty:polar_chasm",
+      "biomeId": "94",
+      "biomeClass": "biomesoplenty.common.biome.nether.BiomeGenPolarChasm",
+      "biomeName": "Polar Chasm",
+      "types": "HOT,DRY,SAVANNA,PLAINS",
+      "resolvedTitle": "Polar Chasm"
+    },
+    {
+      "biome": "biomesoplenty:prairie",
+      "biomeId": "95",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenPrairie",
+      "biomeName": "Prairie",
+      "types": "SPARSE,DRY,PLAINS",
+      "resolvedTitle": "Prairie"
+    },
+    {
+      "biome": "biomesoplenty:quagmire",
+      "biomeId": "96",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenQuagmire",
+      "biomeName": "Quagmire",
+      "types": "WET,SPOOKY,DEAD,SWAMP,WASTELAND",
+      "resolvedTitle": "Quagmire"
+    },
+    {
+      "biome": "biomesoplenty:rainforest",
+      "biomeId": "97",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenRainforest",
+      "biomeName": "Rainforest",
+      "types": "DENSE,WET,JUNGLE,LUSH,FOREST,HILLS",
+      "resolvedTitle": "Rainforest"
+    },
+    {
+      "biome": "biomesoplenty:redwood_forest",
+      "biomeId": "98",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest",
+      "biomeName": "Redwood Forest",
+      "types": "DENSE,CONIFEROUS,FOREST",
+      "resolvedTitle": "Redwood Forest"
+    },
+    {
+      "biome": "biomesoplenty:sacred_springs",
+      "biomeId": "99",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenSacredSprings",
+      "biomeName": "Sacred Springs",
+      "types": "DENSE,WET,LUSH,MAGICAL,FOREST,MOUNTAIN",
+      "resolvedTitle": "Sacred Springs"
+    },
+    {
+      "biome": "biomesoplenty:scrubland",
+      "biomeId": "100",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenScrubland",
+      "biomeName": "Scrubland",
+      "types": "HOT,SPARSE,DRY,SAVANNA,PLAINS",
+      "resolvedTitle": "Scrubland"
+    },
+    {
+      "biome": "biomesoplenty:seasonal_forest_clearing",
+      "biomeId": "101",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenSeasonalForestClearing",
+      "biomeName": "Seasonal Forest Clearing",
+      "types": "PLAINS",
+      "resolvedTitle": "Seasonal Forest Clearing"
+    },
+    {
+      "biome": "biomesoplenty:seasonal_forest",
+      "biomeId": "102",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenSeasonalForest",
+      "biomeName": "Seasonal Forest",
+      "types": "DENSE,LUSH,FOREST",
+      "resolvedTitle": "Seasonal Forest"
+    },
+    {
+      "biome": "biomesoplenty:shield",
+      "biomeId": "103",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenShield",
+      "biomeName": "Shield",
+      "types": "WET,CONIFEROUS,OCEAN,RIVER,FOREST",
+      "resolvedTitle": "Shield"
+    },
+    {
+      "biome": "biomesoplenty:shrubland",
+      "biomeId": "104",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenShrubland",
+      "biomeName": "Shrubland",
+      "types": "SPARSE,DRY,PLAINS",
+      "resolvedTitle": "Shrubland"
+    },
+    {
+      "biome": "biomesoplenty:silkglades",
+      "biomeId": "105",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenSilkglades",
+      "biomeName": "Silkglades",
+      "types": "SPOOKY,DEAD,FOREST,SWAMP",
+      "resolvedTitle": "Silkglades"
+    },
+    {
+      "biome": "biomesoplenty:sludgepit",
+      "biomeId": "106",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenSludgepit",
+      "biomeName": "Sludgepit",
+      "types": "WET,SPOOKY,DEAD,FOREST,SWAMP,WASTELAND",
+      "resolvedTitle": "Sludgepit"
+    },
+    {
+      "biome": "biomesoplenty:snowy_coniferous_forest",
+      "biomeId": "107",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenConiferousForestSnow",
+      "biomeName": "Snowy Coniferous Forest",
+      "types": "COLD,DENSE,CONIFEROUS,FOREST,HILLS,SNOWY",
+      "resolvedTitle": "Snowy Coniferous Forest"
+    },
+    {
+      "biome": "biomesoplenty:spectral_garden",
+      "biomeId": "108",
+      "biomeClass": "biomesoplenty.common.biome.end.BiomeGenSpectralGarden",
+      "biomeName": "Spectral Garden",
+      "types": "HOT,DRY,SAVANNA,PLAINS",
+      "resolvedTitle": "Spectral Garden"
+    },
+    {
+      "biome": "biomesoplenty:spruce_woods",
+      "biomeId": "109",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenSpruceWoods",
+      "biomeName": "Spruce Woods",
+      "types": "DENSE,CONIFEROUS,LUSH,FOREST",
+      "resolvedTitle": "Spruce Woods"
+    },
+    {
+      "biome": "biomesoplenty:steppe",
+      "biomeId": "110",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenSteppe",
+      "biomeName": "Steppe",
+      "types": "HOT,SPARSE,DRY,SAVANNA,DEAD,PLAINS,SANDY",
+      "resolvedTitle": "Steppe"
+    },
+    {
+      "biome": "biomesoplenty:temperate_rainforest",
+      "biomeId": "111",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenTemperateRainforest",
+      "biomeName": "Temperate Rainforest",
+      "types": "WET,CONIFEROUS,LUSH,FOREST,HILLS",
+      "resolvedTitle": "Temperate Rainforest"
+    },
+    {
+      "biome": "biomesoplenty:thicket",
+      "biomeId": "112",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenThicket",
+      "biomeName": "Thicket",
+      "types": "DENSE,DRY,DEAD,FOREST,PLAINS",
+      "resolvedTitle": "Thicket"
+    },
+    {
+      "biome": "biomesoplenty:tropical_rainforest",
+      "biomeId": "113",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenTropicalRainforest",
+      "biomeName": "Tropical Rainforest",
+      "types": "HOT,DENSE,WET,JUNGLE,LUSH",
+      "resolvedTitle": "Tropical Rainforest"
+    },
+    {
+      "biome": "biomesoplenty:tropics",
+      "biomeId": "114",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenTropics",
+      "biomeName": "Tropics",
+      "types": "WET,JUNGLE,LUSH,OCEAN,RIVER,BEACH",
+      "resolvedTitle": "Tropics"
+    },
+    {
+      "biome": "biomesoplenty:tundra",
+      "biomeId": "115",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenTundra",
+      "biomeName": "Tundra",
+      "types": "COLD,SPARSE,DRY,DEAD,WASTELAND",
+      "resolvedTitle": "Tundra"
+    },
+    {
+      "biome": "biomesoplenty:visceral_heap",
+      "biomeId": "117",
+      "biomeClass": "biomesoplenty.common.biome.nether.BiomeGenVisceralHeap",
+      "biomeName": "Visceral Heap",
+      "types": "SPOOKY,NETHER",
+      "resolvedTitle": "血肉堆积地"
+    },
+    {
+      "biome": "biomesoplenty:volcano",
+      "biomeId": "118",
+      "biomeClass": "biomesoplenty.common.biome.overworld.sub.BiomeGenVolcano",
+      "biomeName": "Volcano",
+      "types": "HOT,DRY,MOUNTAIN,WASTELAND",
+      "resolvedTitle": "Volcano"
+    },
+    {
+      "biome": "biomesoplenty:wasteland",
+      "biomeId": "119",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenWasteland",
+      "biomeName": "Wasteland",
+      "types": "SPARSE,SPOOKY,DEAD,WASTELAND",
+      "resolvedTitle": "Wasteland"
+    },
+    {
+      "biome": "biomesoplenty:wetland",
+      "biomeId": "120",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenWetland",
+      "biomeName": "Wetland",
+      "types": "DENSE,WET,LUSH,FOREST,SWAMP",
+      "resolvedTitle": "Wetland"
+    },
+    {
+      "biome": "biomesoplenty:woodland",
+      "biomeId": "121",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenWoodland",
+      "biomeName": "Woodland",
+      "types": "DENSE,DRY,FOREST",
+      "resolvedTitle": "Woodland"
+    },
+    {
+      "biome": "biomesoplenty:xeric_shrubland",
+      "biomeId": "122",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenXericShrubland",
+      "biomeName": "Xeric Shrubland",
+      "types": "HOT,PLAINS,SANDY",
+      "resolvedTitle": "Xeric Shrubland"
+    },
+    {
+      "biome": "biomesoplenty:dense_forest",
+      "biomeId": "123",
+      "biomeClass": "biomesoplenty.common.biome.overworld.BiomeGenDenseForest",
+      "biomeName": "Dense Forest",
+      "types": "PLAINS",
+      "resolvedTitle": "Dense Forest"
+    },
+    {
+      "biome": "legacy.buildcraft.energy.worldgen.BiomeGenOilOcean:ocean_oil_field",
+      "biomeId": "126",
+      "biomeClass": "buildcraft.energy.worldgen.BiomeGenOilOcean",
+      "biomeName": "Ocean Oil Field",
+      "types": "OCEAN,RIVER",
+      "resolvedTitle": "Ocean Oil Field"
+    },
+    {
+      "biome": "legacy.buildcraft.energy.worldgen.BiomeGenOilDesert:desert_oil_field",
+      "biomeId": "127",
+      "biomeClass": "buildcraft.energy.worldgen.BiomeGenOilDesert",
+      "biomeName": "Desert Oil Field",
+      "types": "SANDY",
+      "resolvedTitle": "Desert Oil Field"
+    },
+    {
+      "biome": "biomesoplenty:boneyard",
+      "biomeId": "128",
+      "biomeClass": "biomesoplenty.common.biome.nether.BiomeGenBoneyard",
+      "biomeName": "Boneyard",
+      "types": "SPOOKY,NETHER,WASTELAND",
+      "resolvedTitle": "Boneyard"
+    },
+    {
+      "biome": "minecraft:sunflower_plains",
+      "biomeId": "129",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenPlains",
+      "biomeName": "Sunflower Plains",
+      "types": "PLAINS",
+      "resolvedTitle": "Sunflower Plains"
+    },
+    {
+      "biome": "minecraft:desert_m",
+      "biomeId": "130",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMutated",
+      "biomeName": "Desert M",
+      "types": "HOT,DRY,PLAINS,SANDY",
+      "resolvedTitle": "Desert M"
+    },
+    {
+      "biome": "minecraft:extreme_hills_m",
+      "biomeId": "131",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenHills",
+      "biomeName": "Extreme Hills M",
+      "types": "HILLS",
+      "resolvedTitle": "Extreme Hills M"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "biomeId": "132",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenForest",
+      "biomeName": "Flower Forest",
+      "types": "FOREST,HILLS",
+      "resolvedTitle": "Flower Forest"
+    },
+    {
+      "biome": "minecraft:taiga_m",
+      "biomeId": "133",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMutated",
+      "biomeName": "Taiga M",
+      "types": "HILLS",
+      "resolvedTitle": "Taiga M"
+    },
+    {
+      "biome": "minecraft:swampland_m",
+      "biomeId": "134",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMutated",
+      "biomeName": "Swampland M",
+      "types": "WET,SWAMP",
+      "resolvedTitle": "Swampland M"
+    },
+    {
+      "biome": "legacy.appeng.spatial.BiomeGenStorage:storage_cell",
+      "biomeId": "135",
+      "biomeClass": "appeng.spatial.BiomeGenStorage",
+      "biomeName": "Storage Cell",
+      "types": "COLD,PLAINS",
+      "resolvedTitle": "Storage Cell"
+    },
+    {
+      "biome": "biomesoplenty:corrupted_sands",
+      "biomeId": "136",
+      "biomeClass": "biomesoplenty.common.biome.nether.BiomeGenCorruptedSands",
+      "biomeName": "Corrupted Sands",
+      "types": "SPOOKY,NETHER,SANDY",
+      "resolvedTitle": "Corrupted Sands"
+    },
+    {
+      "biome": "biomesoplenty:phantasmagoric_inferno",
+      "biomeId": "137",
+      "biomeClass": "biomesoplenty.common.biome.nether.BiomeGenPhantasmagoricInferno",
+      "biomeName": "Phantasmagoric Inferno",
+      "types": "SPOOKY,NETHER",
+      "resolvedTitle": "Phantasmagoric Inferno"
+    },
+    {
+      "biome": "biomesoplenty:undergarden",
+      "biomeId": "138",
+      "biomeClass": "biomesoplenty.common.biome.nether.BiomeGenUndergarden",
+      "biomeName": "Undergarden",
+      "types": "JUNGLE,SPOOKY,NETHER",
+      "resolvedTitle": "Undergarden"
+    },
+    {
+      "biome": "minecraft:ice_plains_spikes",
+      "biomeId": "140",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenSnow",
+      "biomeName": "Ice Plains Spikes",
+      "types": "COLD,HILLS,SNOWY",
+      "resolvedTitle": "Ice Plains Spikes"
+    },
+    {
+      "biome": "galacticraft:moon",
+      "biomeId": "141",
+      "biomeClass": "micdoodle8.mods.galacticraft.core.world.gen.BiomeGenFlatMoon",
+      "biomeName": "moon",
+      "types": "COLD,DRY,DEAD",
+      "resolvedTitle": "月球表面"
+    },
+    {
+      "biome": "galacticraft:marsflat",
+      "biomeId": "142",
+      "biomeClass": "micdoodle8.mods.galacticraft.planets.mars.world.gen.BiomeGenFlatMars",
+      "biomeName": "marsFlat",
+      "types": "COLD,DRY,DEAD,SANDY",
+      "resolvedTitle": "火星平原"
+    },
+    {
+      "biome": "galacticraft:asteroids",
+      "biomeId": "143",
+      "biomeClass": "micdoodle8.mods.galacticraft.planets.asteroids.world.gen.BiomeGenBaseAsteroids",
+      "biomeName": "asteroids",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "小行星群"
+    },
+    {
+      "biome": "galacticraft:space",
+      "biomeId": "144",
+      "biomeClass": "micdoodle8.mods.galacticraft.core.world.gen.BiomeGenBaseOrbit",
+      "biomeName": "space",
+      "types": "DRY,PLAINS",
+      "resolvedTitle": "太空"
+    },
+    {
+      "biome": "minecraft:jungle_m",
+      "biomeId": "149",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMutated",
+      "biomeName": "Jungle M",
+      "types": "HOT,WET,HILLS",
+      "resolvedTitle": "Jungle M"
+    },
+    {
+      "biome": "minecraft:jungleedge_m",
+      "biomeId": "151",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMutated",
+      "biomeName": "JungleEdge M",
+      "types": "HOT,HILLS",
+      "resolvedTitle": "JungleEdge M"
+    },
+    {
+      "biome": "minecraft:birch_forest_m",
+      "biomeId": "155",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenForest$2",
+      "biomeName": "Birch Forest M",
+      "types": "HILLS",
+      "resolvedTitle": "Birch Forest M"
+    },
+    {
+      "biome": "minecraft:birch_forest_hills_m",
+      "biomeId": "156",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenForest$2",
+      "biomeName": "Birch Forest Hills M",
+      "types": "HILLS",
+      "resolvedTitle": "Birch Forest Hills M"
+    },
+    {
+      "biome": "minecraft:roofed_forest_m",
+      "biomeId": "157",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenForest$1",
+      "biomeName": "Roofed Forest M",
+      "types": "HILLS",
+      "resolvedTitle": "Roofed Forest M"
+    },
+    {
+      "biome": "minecraft:cold_taiga_m",
+      "biomeId": "158",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMutated",
+      "biomeName": "Cold Taiga M",
+      "types": "COLD,HILLS,SNOWY",
+      "resolvedTitle": "Cold Taiga M"
+    },
+    {
+      "biome": "minecraft:mega_spruce_taiga",
+      "biomeId": "160",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenTaiga",
+      "biomeName": "Mega Spruce Taiga",
+      "types": "DENSE,FOREST",
+      "resolvedTitle": "Mega Spruce Taiga"
+    },
+    {
+      "biome": "minecraft:mega_spruce_taiga",
+      "biomeId": "160",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenTaiga",
+      "biomeName": "Mega Spruce Taiga",
+      "types": "DENSE,FOREST",
+      "resolvedTitle": "Mega Spruce Taiga"
+    },
+    {
+      "biome": "minecraft:extreme_hills_plus_m",
+      "biomeId": "162",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenHills",
+      "biomeName": "Extreme Hills+ M",
+      "types": "HILLS",
+      "resolvedTitle": "Extreme Hills+ M"
+    },
+    {
+      "biome": "minecraft:savanna_m",
+      "biomeId": "163",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenSavanna$Mutated",
+      "biomeName": "Savanna M",
+      "types": "HOT,SPARSE,DRY,SAVANNA,HILLS",
+      "resolvedTitle": "Savanna M"
+    },
+    {
+      "biome": "minecraft:savanna_plateau_m",
+      "biomeId": "164",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenSavanna$Mutated",
+      "biomeName": "Savanna Plateau M",
+      "types": "HOT,SPARSE,DRY,SAVANNA,HILLS",
+      "resolvedTitle": "Savanna Plateau M"
+    },
+    {
+      "biome": "minecraft:mesa_bryce",
+      "biomeId": "165",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMesa",
+      "biomeName": "Mesa (Bryce)",
+      "types": "HOT,DRY,PLAINS,SANDY",
+      "resolvedTitle": "Mesa (Bryce)"
+    },
+    {
+      "biome": "minecraft:mesa_plateau_f_m",
+      "biomeId": "166",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMesa",
+      "biomeName": "Mesa Plateau F M",
+      "types": "HOT,DRY,FOREST,SANDY",
+      "resolvedTitle": "Mesa Plateau F M"
+    },
+    {
+      "biome": "minecraft:mesa_plateau_m",
+      "biomeId": "167",
+      "biomeClass": "net.minecraft.world.biome.BiomeGenMesa",
+      "biomeName": "Mesa Plateau M",
+      "types": "HOT,DRY,PLAINS,SANDY",
+      "resolvedTitle": "Mesa Plateau M"
+    },
+    {
+      "biome": "twilightforest:twilight_clearing",
+      "biomeId": "170",
+      "biomeClass": "twilightforest.biomes.TFBiomeClearing",
+      "biomeName": "Twilight Clearing",
+      "types": "SPARSE,PLAINS",
+      "resolvedTitle": "暮色空地"
+    },
+    {
+      "biome": "twilightforest:dark_forest",
+      "biomeId": "171",
+      "biomeClass": "twilightforest.biomes.TFBiomeDarkForest",
+      "biomeName": "Dark Forest",
+      "types": "DENSE,SPOOKY,FOREST",
+      "resolvedTitle": "黑暗森林"
+    },
+    {
+      "biome": "twilightforest:dark_forest_center",
+      "biomeId": "172",
+      "biomeClass": "twilightforest.biomes.TFBiomeDarkForestCenter",
+      "biomeName": "Dark Forest Center",
+      "types": "DENSE,SPOOKY,MAGICAL,FOREST",
+      "resolvedTitle": "黑暗森林中心"
+    },
+    {
+      "biome": "twilightforest:deep_mushroom_forest",
+      "biomeId": "173",
+      "biomeClass": "twilightforest.biomes.TFBiomeDeepMushrooms",
+      "biomeName": "Deep Mushroom Forest",
+      "types": "MUSHROOM,FOREST",
+      "resolvedTitle": "深邃蘑菇森林"
+    },
+    {
+      "biome": "twilightforest:fire_swamp",
+      "biomeId": "175",
+      "biomeClass": "twilightforest.biomes.TFBiomeFireSwamp",
+      "biomeName": "Fire Swamp",
+      "types": "HOT,SWAMP,WASTELAND",
+      "resolvedTitle": "火焰沼泽"
+    },
+    {
+      "biome": "twilightforest:twilight_glacier",
+      "biomeId": "176",
+      "biomeClass": "twilightforest.biomes.TFBiomeGlacier",
+      "biomeName": "Twilight Glacier",
+      "types": "COLD,SNOWY,WASTELAND",
+      "resolvedTitle": "暮色冰川"
+    },
+    {
+      "biome": "twilightforest:twilight_highlands",
+      "biomeId": "177",
+      "biomeClass": "twilightforest.biomes.TFBiomeHighlands",
+      "biomeName": "Twilight Highlands",
+      "types": "CONIFEROUS,FOREST,MOUNTAIN",
+      "resolvedTitle": "暮色高地"
+    },
+    {
+      "biome": "twilightforest:highlands_center",
+      "biomeId": "178",
+      "biomeClass": "twilightforest.biomes.TFBiomeFinalPlateau",
+      "biomeName": "Highlands Center",
+      "types": "DRY,DEAD,MESA,WASTELAND",
+      "resolvedTitle": "高地中心"
+    },
+    {
+      "biome": "twilightforest:twilight_lake",
+      "biomeId": "179",
+      "biomeClass": "twilightforest.biomes.TFBiomeTwilightLake",
+      "biomeName": "Twilight Lake",
+      "types": "OCEAN",
+      "resolvedTitle": "暮色湖泊"
+    },
+    {
+      "biome": "twilightforest:firefly_forest",
+      "biomeId": "180",
+      "biomeClass": "twilightforest.biomes.TFBiomeFireflyForest",
+      "biomeName": "Firefly Forest",
+      "types": "LUSH,FOREST",
+      "resolvedTitle": "萤火虫森林"
+    },
+    {
+      "biome": "twilightforest:mushroom_forest",
+      "biomeId": "181",
+      "biomeClass": "twilightforest.biomes.TFBiomeMushrooms",
+      "biomeName": "Mushroom Forest",
+      "types": "MUSHROOM,FOREST",
+      "resolvedTitle": "蘑菇森林"
+    },
+    {
+      "biome": "twilightforest:oak_savanna",
+      "biomeId": "182",
+      "biomeClass": "twilightforest.biomes.TFBiomeOakSavanna",
+      "biomeName": "Oak Savanna",
+      "types": "SPARSE,FOREST",
+      "resolvedTitle": "橡树草原"
+    },
+    {
+      "biome": "twilightforest:twilight_stream",
+      "biomeId": "184",
+      "biomeClass": "twilightforest.biomes.TFBiomeStream",
+      "biomeName": "Twilight Stream",
+      "types": "RIVER",
+      "resolvedTitle": "暮色溪流"
+    },
+    {
+      "biome": "twilightforest:twilight_swamp",
+      "biomeId": "185",
+      "biomeClass": "twilightforest.biomes.TFBiomeSwamp",
+      "biomeName": "Twilight Swamp",
+      "types": "WET,SWAMP",
+      "resolvedTitle": "暮色沼泽"
+    },
+    {
+      "biome": "twilightforest:thornlands",
+      "biomeId": "186",
+      "biomeClass": "twilightforest.biomes.TFBiomeThornlands",
+      "biomeName": "Thornlands",
+      "types": "DRY,DEAD,HILLS,WASTELAND",
+      "resolvedTitle": "荆棘之地"
+    },
+    {
+      "biome": "twilightforest:twilight_forest",
+      "biomeId": "187",
+      "biomeClass": "twilightforest.biomes.TFBiomeTwilightForest",
+      "biomeName": "Twilight Forest",
+      "types": "FOREST",
+      "resolvedTitle": "暮色森林"
+    },
+    {
+      "biome": "twilightforest:dense_twilight_forest",
+      "biomeId": "188",
+      "biomeClass": "twilightforest.biomes.TFBiomeTwilightForestVariant",
+      "biomeName": "Dense Twilight Forest",
+      "types": "DENSE,FOREST",
+      "resolvedTitle": "茂密暮色森林"
+    },
+    {
+      "biome": "twilightforest:enchanted_forest",
+      "biomeId": "189",
+      "biomeClass": "twilightforest.biomes.TFBiomeEnchantedForest",
+      "biomeName": "Enchanted Forest",
+      "types": "MAGICAL,FOREST",
+      "resolvedTitle": "魔法森林"
+    },
+    {
+      "biome": "thaumcraft:eerie",
+      "biomeId": "190",
+      "biomeClass": "thaumcraft.common.lib.world.biomes.BiomeGenEerie",
+      "biomeName": "Eerie",
+      "types": "SPOOKY,MAGICAL",
+      "resolvedTitle": "诡异之地"
+    },
+    {
+      "biome": "thaumcraft:eldritch",
+      "biomeId": "191",
+      "biomeClass": "thaumcraft.common.lib.world.biomes.BiomeGenEldritch",
+      "biomeName": "Eldritch",
+      "types": "SPOOKY,END,MAGICAL",
+      "resolvedTitle": "外域"
+    },
+    {
+      "biome": "thaumcraft:magical_forest",
+      "biomeId": "192",
+      "biomeClass": "thaumcraft.common.lib.world.biomes.BiomeGenMagicalForest",
+      "biomeName": "Magical Forest",
+      "types": "MAGICAL,FOREST",
+      "resolvedTitle": "魔法森林"
+    },
+    {
+      "biome": "thaumcraft:tainted_land",
+      "biomeId": "193",
+      "biomeClass": "thaumcraft.common.lib.world.biomes.BiomeGenTaint",
+      "biomeName": "Tainted Land",
+      "types": "MAGICAL,WASTELAND",
+      "resolvedTitle": "腐化之地"
+    },
+    {
+      "biome": "twilightforest:snowy_forest",
+      "biomeId": "196",
+      "biomeClass": "twilightforest.biomes.TFBiomeSnow",
+      "biomeName": "Snowy Forest",
+      "types": "COLD,CONIFEROUS,FOREST,SNOWY",
+      "resolvedTitle": "积雪森林"
+    },
+    {
+      "biome": "legacy.toxiceverglades.biome.BiomeEverglades$BiomeGenEverglades:toxic_everglades",
+      "biomeId": "199",
+      "biomeClass": "toxiceverglades.biome.BiomeEverglades$BiomeGenEverglades",
+      "biomeName": "Toxic Everglades",
+      "types": "DENSE,DEAD,FOREST,HILLS",
+      "resolvedTitle": "Toxic Everglades"
+    },
+    {
+      "biome": "rwg:ice_river",
+      "biomeId": "200",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRiver",
+      "biomeName": "Ice River",
+      "types": "COLD,RIVER,SNOWY",
+      "resolvedTitle": "Ice River"
+    },
+    {
+      "biome": "galaxyspace:space",
+      "biomeId": "201",
+      "biomeClass": "galaxyspace.core.world.BiomeGenSpaceGS",
+      "biomeName": "Space",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "太空"
+    },
+    {
+      "biome": "rwg:cold_river",
+      "biomeId": "202",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRiver",
+      "biomeName": "Cold River",
+      "types": "COLD,CONIFEROUS,RIVER,FOREST",
+      "resolvedTitle": "Cold River"
+    },
+    {
+      "biome": "galaxyspace:venus",
+      "biomeId": "203",
+      "biomeClass": "galaxyspace.SolarSystem.planets.venus.world.BiomeGenVenus",
+      "biomeName": "Venus",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "金星表面"
+    },
+    {
+      "biome": "galaxyspace:pluto",
+      "biomeId": "204",
+      "biomeClass": "galaxyspace.SolarSystem.planets.pluto.world.BiomeGenPluto",
+      "biomeName": "Pluto",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "冥王星"
+    },
+    {
+      "biome": "rwg:temperate_river",
+      "biomeId": "205",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRiver",
+      "biomeName": "Temperate River",
+      "types": "COLD,RIVER,FOREST",
+      "resolvedTitle": "Temperate River"
+    },
+    {
+      "biome": "galaxyspace:pluto2",
+      "biomeId": "206",
+      "biomeClass": "galaxyspace.SolarSystem.planets.pluto.world.BiomeGenPluto",
+      "biomeName": "Pluto2",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "冥王星高地"
+    },
+    {
+      "biome": "rwg:hot_river",
+      "biomeId": "207",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRiver",
+      "biomeName": "Hot River",
+      "types": "HOT,DRY,RIVER,SANDY",
+      "resolvedTitle": "Hot River"
+    },
+    {
+      "biome": "galaxyspace:pluto3",
+      "biomeId": "208",
+      "biomeClass": "galaxyspace.SolarSystem.planets.pluto.world.BiomeGenPluto",
+      "biomeName": "Pluto3",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "冥王星平原"
+    },
+    {
+      "biome": "rwg:wet_river",
+      "biomeId": "209",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRiver",
+      "biomeName": "Wet River",
+      "types": "HOT,WET,JUNGLE,RIVER",
+      "resolvedTitle": "Wet River"
+    },
+    {
+      "biome": "galaxyspace:pluto4",
+      "biomeId": "210",
+      "biomeClass": "galaxyspace.SolarSystem.planets.pluto.world.BiomeGenPluto",
+      "biomeName": "Pluto4",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "冥王星冰原"
+    },
+    {
+      "biome": "rwg:river_oasis",
+      "biomeId": "211",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRiver",
+      "biomeName": "River Oasis",
+      "types": "HOT,WET,JUNGLE,RIVER",
+      "resolvedTitle": "River Oasis"
+    },
+    {
+      "biome": "galaxyspace:kuiper_belt",
+      "biomeId": "212",
+      "biomeClass": "galaxyspace.SolarSystem.planets.kuiperbelt.world.BiomeGenBaseKuiper",
+      "biomeName": "Kuiper Belt",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "柯伊伯带"
+    },
+    {
+      "biome": "rwg:ice_ocean",
+      "biomeId": "213",
+      "biomeClass": "rwg.biomes.base.BaseBiomeOcean",
+      "biomeName": "Ice Ocean",
+      "types": "COLD,OCEAN,SNOWY,BEACH",
+      "resolvedTitle": "Ice Ocean"
+    },
+    {
+      "biome": "rwg:cold_ocean",
+      "biomeId": "214",
+      "biomeClass": "rwg.biomes.base.BaseBiomeOcean",
+      "biomeName": "Cold Ocean",
+      "types": "COLD,CONIFEROUS,OCEAN,FOREST,BEACH",
+      "resolvedTitle": "Cold Ocean"
+    },
+    {
+      "biome": "galaxyspace:io",
+      "biomeId": "215",
+      "biomeClass": "galaxyspace.SolarSystem.moons.io.world.BiomeGenBaseIo",
+      "biomeName": "Io",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "木卫一表面"
+    },
+    {
+      "biome": "rwg:temperate_ocean",
+      "biomeId": "216",
+      "biomeClass": "rwg.biomes.base.BaseBiomeOcean",
+      "biomeName": "Temperate Ocean",
+      "types": "COLD,OCEAN,FOREST,BEACH",
+      "resolvedTitle": "Temperate Ocean"
+    },
+    {
+      "biome": "galaxyspace:ioash",
+      "biomeId": "217",
+      "biomeClass": "galaxyspace.SolarSystem.moons.io.world.BiomeGenBaseIo",
+      "biomeName": "IoAsh",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "木卫一灰烬原"
+    },
+    {
+      "biome": "rwg:hot_ocean",
+      "biomeId": "218",
+      "biomeClass": "rwg.biomes.base.BaseBiomeOcean",
+      "biomeName": "Hot Ocean",
+      "types": "HOT,DRY,OCEAN,SANDY,BEACH",
+      "resolvedTitle": "Hot Ocean"
+    },
+    {
+      "biome": "galaxyspace:titan",
+      "biomeId": "219",
+      "biomeClass": "galaxyspace.SolarSystem.moons.titan.world.BiomeGenTitan",
+      "biomeName": "Titan",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "土卫六表面"
+    },
+    {
+      "biome": "galaxyspace:barnardacshores",
+      "biomeId": "220",
+      "biomeClass": "galaxyspace.BarnardsSystem.planets.barnardaC.world.biome.BiomeGenBarnardaCShores",
+      "biomeName": "BarnardaCShores",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "巴纳德C海岸"
+    },
+    {
+      "biome": "galaxyspace:barnardachills",
+      "biomeId": "221",
+      "biomeClass": "galaxyspace.BarnardsSystem.planets.barnardaC.world.biome.BiomeGenBarnardaCHills",
+      "biomeName": "BarnardaCHills",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "巴纳德C丘陵"
+    },
+    {
+      "biome": "galaxyspace:barnardaclowplains",
+      "biomeId": "222",
+      "biomeClass": "galaxyspace.BarnardsSystem.planets.barnardaC.world.biome.BiomeGenBarnardaCLowPlains",
+      "biomeName": "BarnardaCLowPlains",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "巴纳德C低地"
+    },
+    {
+      "biome": "rwg:ocean_oasis",
+      "biomeId": "223",
+      "biomeClass": "rwg.biomes.base.BaseBiomeOcean",
+      "biomeName": "Ocean Oasis",
+      "types": "HOT,WET,JUNGLE,OCEAN,BEACH",
+      "resolvedTitle": "Ocean Oasis"
+    },
+    {
+      "biome": "rwg:snow_desert",
+      "biomeId": "224",
+      "biomeClass": "rwg.biomes.base.BaseBiomeSnowDesert",
+      "biomeName": "Snow Desert",
+      "types": "COLD,SNOWY,WASTELAND",
+      "resolvedTitle": "Snow Desert"
+    },
+    {
+      "biome": "rwg:snow_forest",
+      "biomeId": "225",
+      "biomeClass": "rwg.biomes.base.BaseBiomeSnowForest",
+      "biomeName": "Snow Forest",
+      "types": "COLD,CONIFEROUS,FOREST,SNOWY",
+      "resolvedTitle": "Snow Forest"
+    },
+    {
+      "biome": "rwg:cold_plains",
+      "biomeId": "226",
+      "biomeClass": "rwg.biomes.base.BaseBiomeColdPlains",
+      "biomeName": "Cold Plains",
+      "types": "COLD,WASTELAND",
+      "resolvedTitle": "Cold Plains"
+    },
+    {
+      "biome": "rwg:cold_forest",
+      "biomeId": "227",
+      "biomeClass": "rwg.biomes.base.BaseBiomeColdForest",
+      "biomeName": "Cold Forest",
+      "types": "COLD,DENSE,CONIFEROUS,FOREST,HILLS",
+      "resolvedTitle": "Cold Forest"
+    },
+    {
+      "biome": "rwg:hot_plains",
+      "biomeId": "228",
+      "biomeClass": "rwg.biomes.base.BaseBiomeHotPlains",
+      "biomeName": "Hot Plains",
+      "types": "HOT,SPARSE,SAVANNA,PLAINS",
+      "resolvedTitle": "Hot Plains"
+    },
+    {
+      "biome": "rwg:hot_forest",
+      "biomeId": "229",
+      "biomeClass": "rwg.biomes.base.BaseBiomeHotForest",
+      "biomeName": "Hot Forest",
+      "types": "HOT,SPARSE,SAVANNA,PLAINS",
+      "resolvedTitle": "Hot Forest"
+    },
+    {
+      "biome": "rwg:hot_desert",
+      "biomeId": "230",
+      "biomeClass": "rwg.biomes.base.BaseBiomeHotDesert",
+      "biomeName": "Hot Desert",
+      "types": "HOT,DRY,SANDY",
+      "resolvedTitle": "Hot Desert"
+    },
+    {
+      "biome": "rwg:plains_rwg",
+      "biomeId": "231",
+      "biomeClass": "rwg.biomes.base.BaseBiomePlains",
+      "biomeName": "Plains (RWG)",
+      "types": "PLAINS",
+      "resolvedTitle": "Plains (RWG)"
+    },
+    {
+      "biome": "rwg:tropical_island",
+      "biomeId": "232",
+      "biomeClass": "rwg.biomes.base.BaseBiomeTropicalIsland",
+      "biomeName": "Tropical Island",
+      "types": "HOT,WET,JUNGLE",
+      "resolvedTitle": "Tropical Island"
+    },
+    {
+      "biome": "rwg:redwood",
+      "biomeId": "233",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRedwood",
+      "biomeName": "Redwood",
+      "types": "COLD,CONIFEROUS,FOREST",
+      "resolvedTitle": "Redwood"
+    },
+    {
+      "biome": "rwg:jungle_rwg",
+      "biomeId": "234",
+      "biomeClass": "rwg.biomes.base.BaseBiomeJungle",
+      "biomeName": "Jungle (RWG)",
+      "types": "HOT,WET,JUNGLE",
+      "resolvedTitle": "Jungle (RWG)"
+    },
+    {
+      "biome": "rwg:oasis",
+      "biomeId": "235",
+      "biomeClass": "rwg.biomes.base.BaseBiomeRiver",
+      "biomeName": "Oasis",
+      "types": "HOT,WET,PLAINS",
+      "resolvedTitle": "Oasis"
+    },
+    {
+      "biome": "rwg:temperate_forest",
+      "biomeId": "236",
+      "biomeClass": "rwg.biomes.base.BaseBiomeTemperateForest",
+      "biomeName": "Temperate Forest",
+      "types": "PLAINS",
+      "resolvedTitle": "Temperate Forest"
+    },
+    {
+      "biome": "rwg:wet_ocean",
+      "biomeId": "237",
+      "biomeClass": "rwg.biomes.base.BaseBiomeOcean",
+      "biomeName": "Wet Ocean",
+      "types": "HOT,WET,JUNGLE,OCEAN,BEACH",
+      "resolvedTitle": "Wet Ocean"
+    },
+    {
+      "biome": "galaxyspace:barnardacflowers",
+      "biomeId": "238",
+      "biomeClass": "galaxyspace.BarnardsSystem.planets.barnardaC.world.biome.BiomeGenBarnardaCFlowers",
+      "biomeName": "BarnardaCFlowers",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "巴纳德C花田"
+    },
+    {
+      "biome": "galaxyspace:barnardacoceans",
+      "biomeId": "239",
+      "biomeClass": "galaxyspace.BarnardsSystem.planets.barnardaC.world.biome.BiomeGenBarnardaCOceans",
+      "biomeName": "BarnardaCOceans",
+      "types": "COLD,DRY,SPOOKY,DEAD",
+      "resolvedTitle": "巴纳德C海洋"
+    }
+  ],
+  "biomeAliasCollisions": {
+    "minecraft:mega_spruce_taiga": [
+      "160",
+      "160"
+    ]
+  },
+  "registeredDimensionIds": [
+    94,
+    93,
+    92,
+    91,
+    90,
+    86,
+    85,
+    84,
+    83,
+    82,
+    81,
+    173,
+    77,
+    74,
+    71,
+    70,
+    69,
+    64,
+    63,
+    60,
+    56,
+    55,
+    51,
+    50,
+    49,
+    48,
+    47,
+    46,
+    45,
+    44,
+    43,
+    42,
+    41,
+    40,
+    39,
+    38,
+    37,
+    227,
+    36,
+    35,
+    33,
+    32,
+    31,
+    30,
+    29,
+    28,
+    25,
+    112,
+    7,
+    100,
+    2,
+    -1,
+    1,
+    95,
+    0
+  ],
+  "celestialBodies": [
+    {
+      "key": "planet.anubis",
+      "getName": "anubis",
+      "getLocalizedName": "阿努比斯",
+      "getDimensionID": "92",
+      "getReachable": "true",
+      "getWorldProvider": "class de.katzenpapst.amunra.world.anubis.AnubisWorldProvider"
+    },
+    {
+      "key": "planet.asteroidBeltMehen",
+      "getName": "asteroidbeltmehen",
+      "getLocalizedName": "迈罕带",
+      "getDimensionID": "95",
+      "getReachable": "true",
+      "getWorldProvider": "class de.katzenpapst.amunra.world.mehen.MehenWorldProvider"
+    },
+    {
+      "key": "planet.asteroids",
+      "getName": "asteroids",
+      "getLocalizedName": "小行星带",
+      "getDimensionID": "30",
+      "getReachable": "true",
+      "getWorldProvider": "class micdoodle8.mods.galacticraft.planets.asteroids.dimension.WorldProviderAsteroids"
+    },
+    {
+      "key": "planet.baal",
+      "getName": "baal",
+      "getLocalizedName": "巴力",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.Barnarda1",
+      "getName": "barnarda1",
+      "getLocalizedName": "巴纳德B",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.Barnarda2",
+      "getName": "barnarda2",
+      "getLocalizedName": "巴纳德C",
+      "getDimensionID": "32",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.BarnardsSystem.planets.barnardaC.dimension.WorldProviderBarnardaC"
+    },
+    {
+      "key": "planet.Barnarda3",
+      "getName": "barnarda3",
+      "getLocalizedName": "巴纳德D",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.Barnarda4",
+      "getName": "barnarda4",
+      "getLocalizedName": "巴纳德E",
+      "getDimensionID": "81",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.BarnardsSystem.planets.barnardaE.dimension.WorldProviderBarnardaE"
+    },
+    {
+      "key": "planet.Barnarda5",
+      "getName": "barnarda5",
+      "getLocalizedName": "巴纳德F",
+      "getDimensionID": "82",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.BarnardsSystem.planets.barnardaF.dimension.WorldProviderBarnardaF"
+    },
+    {
+      "key": "planet.Barnarda6",
+      "getName": "barnarda6",
+      "getLocalizedName": "巴纳德G",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.BarnardaAsteroids",
+      "getName": "barnardaasteroids",
+      "getLocalizedName": "巴纳德星系小行星带",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.CentauriB",
+      "getName": "centaurib",
+      "getLocalizedName": "半人马座α星B",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.CentauriBb",
+      "getName": "centauribb",
+      "getLocalizedName": "半人马座α星Bb",
+      "getDimensionID": "31",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.ACentauriSystem.planets.aCentauriBb.dimension.WorldProviderACentauri"
+    },
+    {
+      "key": "planet.Ceres",
+      "getName": "ceres",
+      "getLocalizedName": "谷神星",
+      "getDimensionID": "42",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.ceres.dimension.WorldProviderCeres"
+    },
+    {
+      "key": "planet.eris",
+      "getName": "eris",
+      "getLocalizedName": "阋神星",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.haumea",
+      "getName": "haumea",
+      "getLocalizedName": "妊神星",
+      "getDimensionID": "83",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.haumea.dimension.WorldProviderHaumea"
+    },
+    {
+      "key": "planet.horus",
+      "getName": "horus",
+      "getLocalizedName": "荷鲁斯",
+      "getDimensionID": "93",
+      "getReachable": "true",
+      "getWorldProvider": "class de.katzenpapst.amunra.world.horus.HorusWorldProvider"
+    },
+    {
+      "key": "planet.jupiter",
+      "getName": "jupiter",
+      "getLocalizedName": "木星",
+      "getDimensionID": "71",
+      "getReachable": "false",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.jupiter.dimension.WorldProviderJupiter"
+    },
+    {
+      "key": "planet.kuiperbelt",
+      "getName": "kuiperbelt",
+      "getLocalizedName": "柯伊伯带",
+      "getDimensionID": "33",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.kuiperbelt.dimension.WorldProviderKuiper"
+    },
+    {
+      "key": "planet.makemake",
+      "getName": "makemake",
+      "getLocalizedName": "鸟神星",
+      "getDimensionID": "25",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.makemake.dimension.WorldProviderMakemake"
+    },
+    {
+      "key": "planet.mars",
+      "getName": "mars",
+      "getLocalizedName": "火星",
+      "getDimensionID": "29",
+      "getReachable": "true",
+      "getWorldProvider": "class micdoodle8.mods.galacticraft.planets.mars.dimension.WorldProviderMars"
+    },
+    {
+      "key": "planet.mercury",
+      "getName": "mercury",
+      "getLocalizedName": "水星",
+      "getDimensionID": "37",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.mercury.dimension.WorldProviderMercury"
+    },
+    {
+      "key": "planet.neptune",
+      "getName": "neptune",
+      "getLocalizedName": "海王星",
+      "getDimensionID": "74",
+      "getReachable": "false",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.neptune.dimension.WorldProviderNeptune"
+    },
+    {
+      "key": "planet.osiris",
+      "getName": "osiris",
+      "getLocalizedName": "奥西里斯",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.overworld",
+      "getName": "overworld",
+      "getLocalizedName": "地球",
+      "getDimensionID": "0",
+      "getReachable": "true",
+      "getWorldProvider": "class net.minecraft.world.WorldProvider"
+    },
+    {
+      "key": "planet.pluto",
+      "getName": "pluto",
+      "getLocalizedName": "冥王星",
+      "getDimensionID": "49",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.pluto.dimension.WorldProviderPluto"
+    },
+    {
+      "key": "planet.ProximaB",
+      "getName": "proximab",
+      "getLocalizedName": "比邻星B",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.Ross128b",
+      "getName": "ross128b",
+      "getLocalizedName": "罗斯128b",
+      "getDimensionID": "64",
+      "getReachable": "true",
+      "getWorldProvider": "class bwcrossmod.galacticraft.planets.ross128b.WorldProviderRoss128b"
+    },
+    {
+      "key": "planet.saturn",
+      "getName": "saturn",
+      "getLocalizedName": "土星",
+      "getDimensionID": "77",
+      "getReachable": "false",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.saturn.dimension.WorldProviderSaturn"
+    },
+    {
+      "key": "planet.sekhmet",
+      "getName": "sekhmet",
+      "getLocalizedName": "塞赫美特",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.starAmun",
+      "getName": "staramun",
+      "getLocalizedName": "阿蒙",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.TCetiAsteroids",
+      "getName": "tcetiasteroids",
+      "getLocalizedName": "鲸鱼座T星星系小行星带",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.TCetiB",
+      "getName": "tcetib",
+      "getLocalizedName": "鲸鱼座T星B",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.TCetiC",
+      "getName": "tcetic",
+      "getLocalizedName": "鲸鱼座T星C",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.TCetiD",
+      "getName": "tcetid",
+      "getLocalizedName": "鲸鱼座T星D",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.TCetiE",
+      "getName": "tcetie",
+      "getLocalizedName": "鲸鱼座T星E",
+      "getDimensionID": "85",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.TCetiSystem.planets.tcetiE.dimension.WorldProviderTCetiE"
+    },
+    {
+      "key": "planet.TCetiF",
+      "getName": "tcetif",
+      "getLocalizedName": "鲸鱼座T星F",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.TCetiG",
+      "getName": "tcetig",
+      "getLocalizedName": "鲸鱼座T星G",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.uranus",
+      "getName": "uranus",
+      "getLocalizedName": "天王星",
+      "getDimensionID": "51",
+      "getReachable": "false",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.uranus.dimension.WorldProviderUranus"
+    },
+    {
+      "key": "planet.Vega1",
+      "getName": "vega1",
+      "getLocalizedName": "织女一B",
+      "getDimensionID": "84",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.VegaSystem.planets.vegaB.dimension.WorldProviderVegaB"
+    },
+    {
+      "key": "planet.Vega2",
+      "getName": "vega2",
+      "getLocalizedName": "织女一C",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.VegaAsteroids",
+      "getName": "vegaasteroids",
+      "getLocalizedName": "织女星系小行星带",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.VegaAsteroids2",
+      "getName": "vegaasteroids2",
+      "getLocalizedName": "织女星系小行星带",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "planet.venus",
+      "getName": "venus",
+      "getLocalizedName": "金星",
+      "getDimensionID": "39",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.planets.venus.dimension.WorldProviderVenus"
+    },
+    {
+      "key": "moon.Ariel",
+      "getName": "ariel",
+      "getLocalizedName": "天卫一",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.baalRings",
+      "getName": "baalrings",
+      "getLocalizedName": "巴力环",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.bast",
+      "getName": "bast",
+      "getLocalizedName": "巴斯特",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Callisto",
+      "getName": "callisto",
+      "getLocalizedName": "木卫四",
+      "getDimensionID": "45",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.callisto.dimension.WorldProviderCallisto"
+    },
+    {
+      "key": "moon.Charon",
+      "getName": "charon",
+      "getLocalizedName": "冥卫一（卡戎）",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Deimos",
+      "getName": "deimos",
+      "getLocalizedName": "火卫二",
+      "getDimensionID": "40",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.deimos.dimension.WorldProviderDeimos"
+    },
+    {
+      "key": "moon.Dione",
+      "getName": "dione",
+      "getLocalizedName": "土卫四",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Enceladus",
+      "getName": "enceladus",
+      "getLocalizedName": "土卫二",
+      "getDimensionID": "41",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.enceladus.dimension.WorldProviderEnceladus"
+    },
+    {
+      "key": "moon.Europa",
+      "getName": "europa",
+      "getLocalizedName": "木卫二",
+      "getDimensionID": "35",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.europa.dimension.WorldProviderEuropa"
+    },
+    {
+      "key": "moon.Ganymed",
+      "getName": "ganymed",
+      "getLocalizedName": "木卫三",
+      "getDimensionID": "43",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.ganymede.dimension.WorldProviderGanymede"
+    },
+    {
+      "key": "moon.iah",
+      "getName": "iah",
+      "getLocalizedName": "雅赫",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Iapetus",
+      "getName": "iapetus",
+      "getLocalizedName": "土卫八",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.ioJupiter",
+      "getName": "iojupiter",
+      "getLocalizedName": "木卫一",
+      "getDimensionID": "36",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.io.dimension.WorldProviderIo"
+    },
+    {
+      "key": "moon.kebe",
+      "getName": "kebe",
+      "getLocalizedName": "凯贝洁特",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.khonsu",
+      "getName": "khonsu",
+      "getLocalizedName": "孔苏",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.maahes",
+      "getName": "maahes",
+      "getLocalizedName": "马赫斯",
+      "getDimensionID": "91",
+      "getReachable": "true",
+      "getWorldProvider": "class de.katzenpapst.amunra.world.maahes.MaahesWorldProvider"
+    },
+    {
+      "key": "moon.Mimas",
+      "getName": "mimas",
+      "getLocalizedName": "土卫一",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Miranda",
+      "getName": "miranda",
+      "getLocalizedName": "天卫五",
+      "getDimensionID": "86",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.miranda.dimension.WorldProviderMiranda"
+    },
+    {
+      "key": "moon.moon",
+      "getName": "moon",
+      "getLocalizedName": "月球",
+      "getDimensionID": "28",
+      "getReachable": "true",
+      "getWorldProvider": "class micdoodle8.mods.galacticraft.core.dimension.WorldProviderMoon"
+    },
+    {
+      "key": "moon.neper",
+      "getName": "neper",
+      "getLocalizedName": "奈佩里",
+      "getDimensionID": "90",
+      "getReachable": "true",
+      "getWorldProvider": "class de.katzenpapst.amunra.world.neper.NeperWorldProvider"
+    },
+    {
+      "key": "moon.Oberon",
+      "getName": "oberon",
+      "getLocalizedName": "天卫四",
+      "getDimensionID": "46",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.oberon.dimension.WorldProviderOberon"
+    },
+    {
+      "key": "moon.Phobos",
+      "getName": "phobos",
+      "getLocalizedName": "火卫一",
+      "getDimensionID": "38",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.phobos.dimension.WorldProviderPhobos"
+    },
+    {
+      "key": "moon.Proteus",
+      "getName": "proteus",
+      "getLocalizedName": "海卫八",
+      "getDimensionID": "47",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.proteus.dimension.WorldProviderProteus"
+    },
+    {
+      "key": "moon.Rheya",
+      "getName": "rheya",
+      "getLocalizedName": "土卫五",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Ross128ba",
+      "getName": "ross128ba",
+      "getLocalizedName": "罗斯128ba",
+      "getDimensionID": "63",
+      "getReachable": "true",
+      "getWorldProvider": "class bwcrossmod.galacticraft.planets.ross128ba.WorldProviderRoss128ba"
+    },
+    {
+      "key": "moon.seth",
+      "getName": "seth",
+      "getLocalizedName": "赛特",
+      "getDimensionID": "94",
+      "getReachable": "true",
+      "getWorldProvider": "class de.katzenpapst.amunra.world.seth.SethWorldProvider"
+    },
+    {
+      "key": "moon.Tethys",
+      "getName": "tethys",
+      "getLocalizedName": "土卫三",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.thoth",
+      "getName": "thoth",
+      "getLocalizedName": "托特",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Titan",
+      "getName": "titan",
+      "getLocalizedName": "土卫六",
+      "getDimensionID": "44",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.titan.dimension.WorldProviderTitan"
+    },
+    {
+      "key": "moon.Titania",
+      "getName": "titania",
+      "getLocalizedName": "天卫三",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "moon.Triton",
+      "getName": "triton",
+      "getLocalizedName": "海卫一",
+      "getDimensionID": "48",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.moons.triton.dimension.WorldProviderTriton"
+    },
+    {
+      "key": "moon.Umbriel",
+      "getName": "umbriel",
+      "getLocalizedName": "天卫二",
+      "getDimensionID": "0",
+      "getReachable": "false",
+      "getWorldProvider": ""
+    },
+    {
+      "key": "satellite.spaceStation.saturn",
+      "getName": "spacestation.saturn",
+      "getLocalizedName": "satellite.spaceStation.saturn",
+      "getDimensionID": "78",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.satellites.saturn.dimension.WorldProviderSaturnSS"
+    },
+    {
+      "key": "satellite.spaceStation.neptune",
+      "getName": "spacestation.neptune",
+      "getLocalizedName": "satellite.spaceStation.neptune",
+      "getDimensionID": "75",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.satellites.neptune.dimension.WorldProviderNeptuneSS"
+    },
+    {
+      "key": "satellite.spaceStation.overworld",
+      "getName": "spacestation.overworld",
+      "getLocalizedName": "地球空间站",
+      "getDimensionID": "27",
+      "getReachable": "true",
+      "getWorldProvider": "class micdoodle8.mods.galacticraft.core.dimension.WorldProviderOrbit"
+    },
+    {
+      "key": "satellite.spaceStation.uranus",
+      "getName": "spacestation.uranus",
+      "getLocalizedName": "satellite.spaceStation.uranus",
+      "getDimensionID": "52",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.satellites.uranus.dimension.WorldProviderUranusSS"
+    },
+    {
+      "key": "satellite.spaceStation.mars",
+      "getName": "spacestation.mars",
+      "getLocalizedName": "satellite.spaceStation.mars",
+      "getDimensionID": "34",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.satellites.mars.dimension.WorldProviderMarsSS"
+    },
+    {
+      "key": "satellite.spaceStation.jupiter",
+      "getName": "spacestation.jupiter",
+      "getLocalizedName": "satellite.spaceStation.jupiter",
+      "getDimensionID": "72",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.satellites.jupiter.dimension.WorldProviderJupiterSS"
+    },
+    {
+      "key": "satellite.spaceStation.venus",
+      "getName": "spacestation.venus",
+      "getLocalizedName": "satellite.spaceStation.venus",
+      "getDimensionID": "87",
+      "getReachable": "true",
+      "getWorldProvider": "class galaxyspace.SolarSystem.satellites.venus.dimension.WorldProviderVenusSS"
+    }
+  ],
+  "warnings": []
+}

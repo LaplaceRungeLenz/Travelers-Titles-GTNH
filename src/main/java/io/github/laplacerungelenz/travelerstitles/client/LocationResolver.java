@@ -1,7 +1,6 @@
 package io.github.laplacerungelenz.travelerstitles.client;
 
 import java.util.LinkedHashMap;
-import java.util.Locale;
 import java.util.Map;
 
 import net.minecraft.client.Minecraft;
@@ -11,8 +10,11 @@ import net.minecraft.world.WorldProviderEnd;
 import net.minecraft.world.WorldProviderHell;
 import net.minecraft.world.WorldProviderSurface;
 import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraft.world.chunk.Chunk;
+import net.minecraft.world.chunk.EmptyChunk;
 import net.minecraftforge.common.BiomeDictionary;
 
+import io.github.laplacerungelenz.travelerstitles.core.BiomeAliases;
 import io.github.laplacerungelenz.travelerstitles.core.Location;
 
 public final class LocationResolver {
@@ -20,8 +22,9 @@ public final class LocationResolver {
     public Location sample(Minecraft mc) {
         if (mc.theWorld == null || mc.thePlayer == null) return null;
         int x = MathHelper.floor_double(mc.thePlayer.posX), z = MathHelper.floor_double(mc.thePlayer.posZ);
-        if (!mc.theWorld.getChunkProvider()
-            .chunkExists(x >> 4, z >> 4)) return null;
+        Chunk chunk = mc.theWorld.getChunkProvider()
+            .provideChunk(x >> 4, z >> 4);
+        if (chunk == null || chunk instanceof EmptyChunk || !chunk.isChunkLoaded) return null;
         BiomeGenBase biome = mc.theWorld.getBiomeGenForCoords(x, z);
         if (biome == null) return null;
         WorldProvider provider = mc.theWorld.provider;
@@ -53,15 +56,7 @@ public final class LocationResolver {
         Map<String, String> a = new LinkedHashMap<>();
         String className = biome.getClass()
             .getName();
-        String owner = className.startsWith("net.minecraft.") ? "minecraft"
-            : className.startsWith("biomesoplenty.") ? "biomesoplenty"
-                : className.startsWith("rwg.") ? "rwg"
-                    : className.startsWith("twilightforest.") ? "twilightforest"
-                        : className.startsWith("thaumcraft.") ? "thaumcraft"
-                            : className.startsWith("galaxyspace.") ? "galaxyspace"
-                                : className.startsWith("micdoodle8.") ? "galacticraft"
-                                    : className.startsWith("de.katzenpapst.amunra.") ? "amunra" : "legacy." + className;
-        a.put("biome", owner + ":" + slug(biome.biomeName));
+        a.put("biome", BiomeAliases.alias(className, biome.biomeName));
         a.put("biomeId", Integer.toString(biome.biomeID));
         a.put("biomeClass", className);
         a.put("biomeName", biome.biomeName == null ? "" : biome.biomeName);
@@ -93,10 +88,6 @@ public final class LocationResolver {
     }
 
     public static String slug(String s) {
-        return s == null ? "unknown"
-            : s.trim()
-                .toLowerCase(Locale.ROOT)
-                .replaceAll("[^a-z0-9]+", "_")
-                .replaceAll("^_|_$", "");
+        return BiomeAliases.slug(s);
     }
 }

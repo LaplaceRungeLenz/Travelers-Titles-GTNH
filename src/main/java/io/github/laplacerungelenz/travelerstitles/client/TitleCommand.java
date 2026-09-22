@@ -118,6 +118,7 @@ public final class TitleCommand extends CommandBase {
         report.put("schemaVersion", 1);
         if (client.current() != null) report.put("current", client.current().attributes);
         List<Map<String, String>> biomes = new ArrayList<>();
+        Map<String, List<String>> aliases = new LinkedHashMap<>();
         for (BiomeGenBase biome : BiomeGenBase.getBiomeGenArray()) if (biome != null) {
             Map<String, String> values = LocationResolver.biomeAttributes(biome);
             Location location = new Location("catalog", values.get("biomeId"), values);
@@ -125,8 +126,15 @@ public final class TitleCommand extends CommandBase {
                 "resolvedTitle",
                 TitleResources.name("biome", location, client.resources.resolve("biome", location)));
             biomes.add(values);
+            aliases.computeIfAbsent(values.get("biome"), key -> new ArrayList<>())
+                .add(values.get("biomeId"));
         }
         report.put("biomes", biomes);
+        aliases.entrySet()
+            .removeIf(
+                entry -> entry.getValue()
+                    .size() < 2);
+        report.put("biomeAliasCollisions", aliases);
         report.put("registeredDimensionIds", DimensionManager.getStaticDimensionIDs());
         List<Map<String, String>> bodies = new ArrayList<>();
         for (Map.Entry<String, Object> entry : SpaceCompat.registry()

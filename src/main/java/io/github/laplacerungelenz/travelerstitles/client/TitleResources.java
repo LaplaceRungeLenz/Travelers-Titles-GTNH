@@ -1,5 +1,6 @@
 package io.github.laplacerungelenz.travelerstitles.client;
 
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,6 +11,8 @@ import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import javax.imageio.ImageIO;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.IResource;
@@ -104,10 +107,20 @@ public final class TitleResources implements IResourceManagerReloadListener {
                 .getResourceManager()
                 .getResource(new ResourceLocation(name))
                 .getInputStream()) {
-                value = stream.read() >= 0;
+                BufferedImage decoded = ImageIO.read(stream);
+                value = decoded != null && decoded.getWidth() > 0 && decoded.getHeight() > 0;
+                if (decoded != null) decoded.flush();
+                if (value) {
+                    ResourceLocation resource = new ResourceLocation(name);
+                    value = Minecraft.getMinecraft()
+                        .getTextureManager()
+                        .loadTexture(resource, new SafeTitleTexture(resource));
+                }
+                if (!value) TravelersTitles.LOG.warn("Invalid title image: {} (using text fallback)", name);
             } catch (IOException | RuntimeException ex) {
                 value = false;
-                TravelersTitles.LOG.warn("Title texture missing: {} (using text fallback)", name);
+                TravelersTitles.LOG
+                    .warn("Title texture unavailable: {} (using text fallback): {}", name, ex.toString());
             }
             textures.put(name, value);
         }

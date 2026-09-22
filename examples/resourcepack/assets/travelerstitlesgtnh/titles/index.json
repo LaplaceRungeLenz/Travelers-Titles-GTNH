@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "defaults": {
+    "dimension": {"color":"e8d4a2", "decoration":true, "background":true, "sound":"travelerstitlesgtnh:arrival"},
+    "biome": {"color":"b3dfcf", "scale":2.0}
+  },
+  "rules": [
+    {"id":"example:moon", "priority":10, "match":{"kind":"dimension", "body":"moon.moon"},
+     "style":{"texture":"travelerstitlesgtnh:textures/titles/moon.png", "imageWidth":240, "imageHeight":60, "decoration":false}},
+    {"id":"example:mars", "priority":10, "match":{"kind":"dimension", "body":"planet.mars"},
+     "style":{"color":"e5a37f", "subtitleKey":"ttgtnh.example.marsSubtitle"}}
+  ]
+}

@@ -48,6 +48,9 @@ public final class HudRenderer extends Gui {
                 (int) (fullWidth / 2 + 10),
                 (int) (fullHeight + 6),
                 Math.round(alpha * 140) << 24);
+            // Gui.drawRect disables blending on return.
+            GL11.glEnable(GL11.GL_BLEND);
+            OpenGlHelper.glBlendFunc(770, 771, 1, 0);
             if (d.backgroundImage)
                 texture(s.backgroundTexture, -fullWidth / 2 - 12, -8, fullWidth + 24, fullHeight + 16, alpha);
             if (d.icon) texture(s.icon, -width / 2 - height - 6, 0, height, height, alpha);

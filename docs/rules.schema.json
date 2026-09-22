@@ -1,0 +1,286 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Traveler's Titles GTNH rules",
+  "type": "object",
+  "required": [
+    "schemaVersion"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9_./-]+\\.json$"
+      }
+    },
+    "defaults": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dimension": {
+          "$ref": "#/$defs/style"
+        },
+        "biome": {
+          "$ref": "#/$defs/style"
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "priority": {
+            "type": "integer"
+          },
+          "match": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "dimension": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "dimensionId": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "provider": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "body": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "bodyName": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "orbit": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "biome": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "biomeId": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "biomeClass": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "biomeName": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "spaceKind": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "types": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "style": {
+            "$ref": "#/$defs/style"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "shadow": {
+          "type": "boolean"
+        },
+        "showSubtitle": {
+          "type": "boolean"
+        },
+        "background": {
+          "type": "boolean"
+        },
+        "decoration": {
+          "type": "boolean"
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "titleKey": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "subtitle": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "subtitleKey": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "alias": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#?[a-fA-F0-9]{6}$"
+        },
+        "subtitleColor": {
+          "type": "string",
+          "pattern": "^#?[a-fA-F0-9]{6}$"
+        },
+        "texture": {
+          "type": "string",
+          "pattern": "^$|^[a-z0-9_.-]+:[a-zA-Z0-9_./-]+$",
+          "maxLength": 2048
+        },
+        "backgroundTexture": {
+          "type": "string",
+          "pattern": "^$|^[a-z0-9_.-]+:[a-zA-Z0-9_./-]+$",
+          "maxLength": 2048
+        },
+        "icon": {
+          "type": "string",
+          "pattern": "^$|^[a-z0-9_.-]+:[a-zA-Z0-9_./-]+$",
+          "maxLength": 2048
+        },
+        "sound": {
+          "type": "string",
+          "pattern": "^$|^[a-z0-9_.-]+:[a-zA-Z0-9_./-]+$",
+          "maxLength": 2048
+        },
+        "fadeIn": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 12000
+        },
+        "hold": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 12000
+        },
+        "fadeOut": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 12000
+        },
+        "imageWidth": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4096
+        },
+        "imageHeight": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4096
+        },
+        "scale": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 10
+        },
+        "subtitleScale": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 10
+        },
+        "anchorX": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "anchorY": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "volume": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "x": {
+          "type": "number",
+          "minimum": -4096,
+          "maximum": 4096
+        },
+        "y": {
+          "type": "number",
+          "minimum": -4096,
+          "maximum": 4096
+        },
+        "maxWidth": {
+          "type": "number",
+          "minimum": 0.05,
+          "maximum": 1
+        },
+        "lineSpacing": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "pitch": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 2
+        }
+      }
+    }
+  }
+}

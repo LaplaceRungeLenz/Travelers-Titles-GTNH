@@ -121,7 +121,12 @@ public final class ClientProxy extends CommonProxy {
         if (display != null && tick - display.start >= display.style.duration()) display = null;
         if (tick % ClientConfig.sampleTicks != 0 && pendingPreview == null && previousPlayer == mc.thePlayer) return;
         Location sampled = resolver.sample(mc);
-        if (sampled == null) return;
+        if (sampled == null) {
+            // A transfer can replace the world before its first real chunk arrives.
+            location = null;
+            display = null;
+            return;
+        }
         boolean respawn = previousPlayer != null && previousPlayer != mc.thePlayer
             && location != null
             && sampled.dimensionKey.equals(location.dimensionKey);
