@@ -1,0 +1,14 @@
+[
+  {
+    "modid": "${modId}",
+    "name": "${modName}",
+    "description": "Configurable client-side biome, dimension and planet titles for GTNH. Supports resource-pack text, PNG artwork and sounds.",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "",
+    "authorList": ["LaplaceRungeLenz"],
+    "credits": "Inspired by Traveler's Titles by YUNGNICKYOUNG. Independent 1.7.10 implementation.",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
