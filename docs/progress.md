@@ -14,3 +14,4 @@ Spec: 2026-09-22-gtnh-travelers-titles-design-roadmap.md. Plan: implementation-p
 - Production class/resource entries are byte-for-byte identical between the final normal JAR and the final in-game QA JAR.
 - Runtime resource tests passed missing/invalid textures, malformed JSON, local overrides, full resource reload, sound registration, and valid-to-corrupt-to-restored PNG reload.
 - Complete runtime evidence and honest coverage limits are recorded in test-report.md and qa/*.json.
+- M6: created LaplaceRungeLenz/Travelers-Titles-GTNH as a private repository and pushed main. Remote visibility and commit were verified; release count is zero. No release tags or publishing workflows were created.
