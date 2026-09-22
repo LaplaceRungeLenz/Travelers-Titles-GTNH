@@ -4,7 +4,7 @@
 
 一个面向 Minecraft 1.7.10 Forge 的高可配置**客户端模组**，灵感来自 Traveler's Titles。
 针对 GT New Horizons 2.9.0-beta-3 设计，提供 Galacticraft、GalaxySpace、AmunRa、
-Ross128、动态空间站、私人空间及扩展群系 ID 的适配机制。实际验证范围与未测项见[测试报告](docs/test-report.md)。
+Ross128、动态空间站、私人空间及扩展群系 ID 的适配机制。动态空间站、母舰和多人连接尚未完成游戏内验证。
 
 ## 安装
 
@@ -50,21 +50,7 @@ Gradle 会准备所需的 Java 工具链；启动 Gradle 本身需要受支持�
 首次构建需要联网下载依赖。
 
 `build/libs/*-dev.jar` 用于开发，`*-sources.jar` 包含源码，不带这两种后缀的 JAR 用于安装。
-`src/qa/java` 包含可选集成测试探针，**仅在指定 `-Pqa` 时编译**。不要将此测试构建安装到日常实例。
-探针要求独立测试游戏目录内存在 `.ttgtnh-qa` 标记，并会创建自己的创造模式世界。
-
-```powershell
-.\gradlew.bat -Pqa test build
-```
-
-测试探针会访问已注册的测试维度并截图。其传送跳过正常游戏进度，验证的是位置身份与标题渲染，
-并非火箭或传送门玩法。完整结果见[测试报告](docs/test-report.md)。
-
-正常构建后，运行 `python scripts/verify-artifact.py` 可检查 Java 8 字节码以及产物中是否排除了测试探针。
-在测试构建与正常构建之间切换时，使用 `clean test build`。
-若 Windows 提示构建 JAR 被占用，先执行 `gradlew --stop` 再重试。每个游戏实例只安装本模组的一个版本。
-
-![火星上的示例资源包效果](docs/qa/mars-example.png)
+每个游戏实例只安装本模组的一个版本。
 
 仓库不包含版本发布或自动发布工作流，用于私人源码同步。
 

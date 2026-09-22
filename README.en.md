@@ -5,7 +5,7 @@
 A highly configurable **client-side** Minecraft 1.7.10 Forge mod inspired by Traveler's Titles.
 Designed for GT New Horizons 2.9.0-beta-3, with integration mechanisms for Galacticraft, GalaxySpace,
 AmunRa, Ross128, dynamic space stations, Personal Space, and extended biome IDs.
-See the [test report](docs/test-report.md) for verified coverage and untested scenarios.
+Dynamic space stations, motherships, and multiplayer connections have not yet been verified in-game.
 
 ## Installation
 
@@ -52,23 +52,8 @@ Gradle provisions the required Java toolchains; launching Gradle itself requires
 A fresh build needs network access to download dependencies.
 
 `build/libs/*-dev.jar` is for development, `*-sources.jar` contains source, and the JAR without either
-classifier is for installation. `src/qa/java` contains an optional integration probe, compiled **only with `-Pqa`**.
-Do not install this QA build in an everyday instance. It requires a `.ttgtnh-qa` marker in a disposable game
-directory and creates its own creative world.
-
-```powershell
-.\gradlew.bat -Pqa test build
-```
-
-The QA probe visits registered test dimensions and takes screenshots. Its teleports bypass normal progression,
-so it verifies location identity and HUD rendering rather than rocket or portal gameplay.
-See the [test report](docs/test-report.md) for the full results.
-
-After a normal build, run `python scripts/verify-artifact.py` to check Java 8 bytecode and the absence of the QA probe.
-Use `clean test build` when switching between QA and normal builds. If Windows reports a locked build JAR,
-run `gradlew --stop` before retrying. Install exactly one version of this mod in each instance.
-
-![Example resource pack on Mars](docs/qa/mars-example.png)
+classifier is for installation.
+Install exactly one version of this mod in each instance.
 
 No release or automated publishing workflow is included. This repository is intended for private source synchronization.
 
