@@ -19,6 +19,15 @@ public final class HudRenderer extends Gui {
         TitleStyle s = d.style;
         float alpha = Animation.alpha(tick - d.start + partialTicks, s.fadeIn, s.hold, s.fadeOut);
         if (alpha <= 0.035F) return;
+        render(d, alpha);
+    }
+
+    public void renderPreview(TitleDisplay display) {
+        if (display != null) render(display, 1);
+    }
+
+    private void render(TitleDisplay d, float alpha) {
+        TitleStyle s = d.style;
         Minecraft mc = Minecraft.getMinecraft();
         ScaledResolution screen = new ScaledResolution(mc, mc.displayWidth, mc.displayHeight);
         float maxWidth = screen.getScaledWidth() * s.maxWidth;

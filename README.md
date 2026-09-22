@@ -23,9 +23,16 @@ Ross128、动态空间站、私人空间及扩展群系 ID 的适配机制。动
 
 ## 配置
 
-打开**模组 → Traveler's Titles GTNH → 配置**，调整行为和音量设置。
+打开**模组 → Traveler's Titles GTNH → 配置**，调整行为、音量与外观设置。进入世界后也可通过 Mod 列表的配置按钮打开；暂停菜单左上角另有**标题设置**快捷入口。
 
-- `config/travelerstitlesgtnh/general.cfg`：行为、冷却、屏幕提示的可见性和音量。
+维度和群系标题分别提供字号倍率、颜色、阴影、屏幕锚点、像素偏移、最大宽度、行距及背景等选项。
+先开启对应分类的**启用外观覆盖**，点击该分类的**完成**保存，设置立即生效，无需重启。
+返回配置首页可预览已保存的外观；世界内使用当前位置，主菜单使用示例文字。预览始终显示且不播放声音。
+分类界面保留 Forge 的恢复默认和撤销按钮；按 Esc 放弃未保存编辑。
+外观覆盖默认关闭，关闭后恢复资源包及 `overrides.json` 的样式。
+字体沿用 Minecraft／资源包，字号与颜色仅调整文字，不修改 PNG 标题图像。
+
+- `config/travelerstitlesgtnh/general.cfg`：行为、冷却、屏幕提示的可见性、音量，以及维度／群系外观覆盖。
 - `config/travelerstitlesgtnh/overrides.json`：各地区的名称、样式及显式本地覆盖。
 - `/ttgtnh preview dimension` 或 `/ttgtnh preview biome`：关闭聊天框后预览当前位置的标题。
 - `/ttgtnh reload`：重载配置和标题资源。

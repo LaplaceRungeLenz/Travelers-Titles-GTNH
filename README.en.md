@@ -24,9 +24,18 @@ Forge is the only required runtime dependency; space mod integrations are option
 
 ## Configuration
 
-Open **Mods → Traveler's Titles GTNH → Config** to adjust behavior and volume settings.
+Open **Mods → Traveler's Titles GTNH → Config** to adjust behavior, volume, and appearance. This entry also works from an in-world mod list.
+The pause menu has a **Title settings** shortcut in the top-left corner.
 
-- `config/travelerstitlesgtnh/general.cfg`: behavior, cooldowns, HUD visibility, and volume.
+Dimension and biome categories independently control font scale, colors, shadows, anchors, pixel offsets,
+maximum width, subtitle spacing, and backgrounds. Enable **Override resource-pack appearance**, then click
+**Done** in the category to save and apply immediately without restarting. Return to the configuration hub
+to preview saved settings using the current location in-world or sample text from the main menu.
+The preview stays visible and never plays sounds. Forge reset and undo controls remain available;
+Esc discards unsaved edits. Appearance overrides are off by default; disabling them restores resource-pack
+and `overrides.json` styles. Fonts still come from Minecraft / resource packs; text scale and color do not alter PNG titles.
+
+- `config/travelerstitlesgtnh/general.cfg`: behavior, cooldowns, HUD visibility, volume, and dimension/biome appearance overrides.
 - `config/travelerstitlesgtnh/overrides.json`: region names, styles, and explicit local overrides.
 - `/ttgtnh preview dimension` or `/ttgtnh preview biome`: preview the current location after closing chat.
 - `/ttgtnh reload`: reload configuration and title resources.

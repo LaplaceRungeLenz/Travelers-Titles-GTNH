@@ -92,6 +92,10 @@ public final class RuleEngine {
     }
 
     public TitleStyle resolve(String kind, Location location) {
+        return resolve(kind, location, new JsonObject());
+    }
+
+    public TitleStyle resolve(String kind, Location location, JsonObject appearance) {
         JsonObject result = TitleStyle.defaults(kind);
         String source = "built-in";
         for (DefaultLayer d : defaults) if (d.layer < LOCAL && d.kind.equals(kind)) {
@@ -120,6 +124,11 @@ public final class RuleEngine {
         for (Rule r : matches) if (r.layer >= LOCAL) {
             merge(result, r.style);
             source = r.source + "/" + r.id;
+        }
+        if (!appearance.entrySet()
+            .isEmpty()) {
+            merge(result, clean(appearance, "in-game appearance"));
+            source += " + in-game appearance";
         }
         return new TitleStyle(result, source);
     }

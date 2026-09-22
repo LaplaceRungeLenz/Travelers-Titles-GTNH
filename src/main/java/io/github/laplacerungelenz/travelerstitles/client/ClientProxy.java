@@ -6,11 +6,16 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiIngameMenu;
 import net.minecraft.client.resources.IReloadableResourceManager;
 import net.minecraftforge.client.ClientCommandHandler;
+import net.minecraftforge.client.event.GuiOpenEvent;
+import net.minecraftforge.client.event.GuiScreenEvent;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.common.MinecraftForge;
 
+import cpw.mods.fml.client.GuiIngameModOptions;
+import cpw.mods.fml.client.GuiModList;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -88,6 +93,31 @@ public final class ClientProxy extends CommonProxy {
     @SubscribeEvent
     public void changed(ConfigChangedEvent.OnConfigChangedEvent event) {
         if (TravelersTitles.ID.equals(event.modID)) configure();
+    }
+
+    @SubscribeEvent
+    public void legacyModOptions(GuiOpenEvent event) {
+        // Forge 1.7.10's stock in-world Mod Options screen contains only placeholder entries.
+        // Leave other mods' replacement screens intact.
+        if (event.gui != null && event.gui.getClass() == GuiIngameModOptions.class) {
+            event.gui = new GuiModList(Minecraft.getMinecraft().currentScreen);
+        }
+    }
+
+    @SubscribeEvent
+    public void pauseMenu(GuiScreenEvent.InitGuiEvent.Post event) {
+        if (event.gui instanceof GuiIngameMenu) {
+            event.buttonList.add(new PauseConfigButton(8, 8));
+        }
+    }
+
+    @SubscribeEvent
+    public void pauseAction(GuiScreenEvent.ActionPerformedEvent.Pre event) {
+        if (event.gui instanceof GuiIngameMenu && event.button instanceof PauseConfigButton) {
+            event.setCanceled(true);
+            Minecraft.getMinecraft()
+                .displayGuiScreen(new TitleConfigScreen(event.gui));
+        }
     }
 
     @SubscribeEvent

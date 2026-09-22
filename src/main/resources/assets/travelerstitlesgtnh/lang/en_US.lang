@@ -113,3 +113,40 @@ travelerstitlesgtnh.biome.thaumcraft.eldritch=Eldritch
 travelerstitlesgtnh.biome.thaumcraft.magical_forest=Magical Forest
 travelerstitlesgtnh.biome.thaumcraft.tainted_land=Tainted Land
 travelerstitlesgtnh.biome.biomesoplenty.visceral_heap=Visceral Heap
+
+# In-game appearance configuration
+ttgtnh.gui.pause=Title settings
+ttgtnh.gui.general=Behavior and sound
+ttgtnh.gui.dimension=Dimension title appearance
+ttgtnh.gui.biome=Biome title appearance
+ttgtnh.gui.previewDimension=Preview dimension
+ttgtnh.gui.previewBiome=Preview biome
+ttgtnh.gui.help=Enable appearance override to use your settings. Click Done in each category to save, then preview. Esc discards unsaved edits. Fonts come from Minecraft / resource packs.
+ttgtnh.gui.previewHelp=Saved appearance preview (always visible, no sound)
+ttgtnh.gui.sampleTitle=Overworld
+ttgtnh.gui.sampleSubtitle=Plains
+ttgtnh.config.overrideAppearance=Override resource-pack appearance
+ttgtnh.config.overrideAppearance.tooltip=Use this category instead of resource packs and overrides.json for appearance. Disable to restore resource-defined styles.
+ttgtnh.config.scale=Title font scale
+ttgtnh.config.subtitleScale=Subtitle font scale
+ttgtnh.config.color=Title color (RRGGBB)
+ttgtnh.config.subtitleColor=Subtitle color (RRGGBB)
+ttgtnh.config.shadow=Text shadow
+ttgtnh.config.anchorX=Horizontal anchor (0-1)
+ttgtnh.config.anchorY=Vertical anchor (0-1)
+ttgtnh.config.x=Horizontal offset (GUI pixels)
+ttgtnh.config.y=Vertical offset (GUI pixels)
+ttgtnh.config.maxWidth=Maximum screen width fraction
+ttgtnh.config.lineSpacing=Subtitle spacing (GUI pixels)
+ttgtnh.config.showSubtitle=Show subtitle
+ttgtnh.config.background=Dark background
+ttgtnh.config.decoration=Decorative underline
+ttgtnh.config.scale.tooltip=Minecraft font scale, 0.1-10. Long text is reduced to fit the maximum width. PNG title images keep their resource-defined size.
+ttgtnh.config.subtitleScale.tooltip=Subtitle font scale, 0.1-10. Long text is reduced to fit the maximum width.
+ttgtnh.config.color.tooltip=Six hexadecimal digits without #, for example FFFFFF (white) or FFD700 (gold). Applies to text, not PNG title images.
+ttgtnh.config.subtitleColor.tooltip=Six hexadecimal digits without #, for example CCCCCC (light gray).
+ttgtnh.config.anchorX.tooltip=0 = left, 0.5 = center, 1 = right. The title is centered on this point, then offset is added.
+ttgtnh.config.anchorY.tooltip=0 = top, 0.5 = middle, 1 = bottom. Positions the top of the title before vertical offset.
+ttgtnh.config.x.tooltip=Negative moves left; positive moves right. Measured in scaled GUI pixels.
+ttgtnh.config.y.tooltip=Negative moves up; positive moves down. Measured in scaled GUI pixels.
+ttgtnh.config.maxWidth.tooltip=0.05-1 of screen width. Text that exceeds this width is automatically reduced.

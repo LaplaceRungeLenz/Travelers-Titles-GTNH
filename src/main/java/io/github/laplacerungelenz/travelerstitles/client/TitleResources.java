@@ -96,7 +96,7 @@ public final class TitleResources implements IResourceManagerReloadListener {
     }
 
     public TitleStyle resolve(String kind, Location location) {
-        return engine.resolve(kind, location);
+        return engine.resolve(kind, location, ClientConfig.appearance(kind));
     }
 
     public boolean textureAvailable(String name) {
