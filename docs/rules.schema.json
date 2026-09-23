@@ -279,6 +279,29 @@
           "type": "number",
           "minimum": 0.5,
           "maximum": 2
+        },
+        "textureU0": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "textureV0": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "textureU1": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "textureV1": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "biomeSubtitleColor": {
+          "type": "boolean"
         }
       }
     }

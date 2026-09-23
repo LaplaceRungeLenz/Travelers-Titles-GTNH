@@ -142,6 +142,17 @@ public final class RuleEngine {
     }
 
     private static void merge(JsonObject into, JsonObject from) {
+        // Explicit subtitle colors (including GUI appearance overrides) opt out of automatic biome colors.
+        if (from.has("subtitleColor") && !from.has("biomeSubtitleColor")) into.addProperty("biomeSubtitleColor", false);
+        // An unrelated replacement image must not inherit the old atlas crop.
+        if (from.has("texture") && into.has("texture")
+            && !from.get("texture")
+                .equals(into.get("texture"))) {
+            into.addProperty("textureU0", 0);
+            into.addProperty("textureV0", 0);
+            into.addProperty("textureU1", 1);
+            into.addProperty("textureV1", 1);
+        }
         for (Map.Entry<String, JsonElement> e : from.entrySet()) into.add(e.getKey(), e.getValue());
     }
 
@@ -171,7 +182,10 @@ public final class RuleEngine {
                         if (key.equals("scale") || key.equals("subtitleScale")) {
                             min = 0.1;
                             max = 10;
-                        } else if (key.equals("anchorX") || key.equals("anchorY") || key.equals("volume")) max = 1;
+                        } else if (key.equals("anchorX") || key.equals("anchorY")
+                            || key.equals("volume")
+                            || key.startsWith("textureU")
+                            || key.startsWith("textureV")) max = 1;
                         else if (key.equals("maxWidth")) {
                             min = 0.05;
                             max = 1;

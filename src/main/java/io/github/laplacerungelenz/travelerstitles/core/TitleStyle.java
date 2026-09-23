@@ -5,10 +5,11 @@ import com.google.gson.JsonObject;
 /** Validated presentation snapshot. Never contains Minecraft or GPU objects. */
 public final class TitleStyle {
 
-    public final boolean enabled, shadow, showSubtitle, background, decoration;
+    public final boolean enabled, shadow, showSubtitle, background, decoration, biomeSubtitleColor;
     public final String title, titleKey, subtitle, subtitleKey, alias, texture, backgroundTexture, icon, sound;
     public final int color, subtitleColor, fadeIn, hold, fadeOut, imageWidth, imageHeight;
     public final float scale, subtitleScale, anchorX, anchorY, x, y, maxWidth, lineSpacing, volume, pitch;
+    public final float textureU0, textureV0, textureU1, textureV1;
     public final String source;
 
     public TitleStyle(JsonObject j, String source) {
@@ -21,6 +22,8 @@ public final class TitleStyle {
         background = j.get("background")
             .getAsBoolean();
         decoration = j.get("decoration")
+            .getAsBoolean();
+        biomeSubtitleColor = j.get("biomeSubtitleColor")
             .getAsBoolean();
         title = string(j, "title");
         titleKey = string(j, "titleKey");
@@ -38,6 +41,13 @@ public final class TitleStyle {
         fadeOut = integer(j, "fadeOut");
         imageWidth = integer(j, "imageWidth");
         imageHeight = integer(j, "imageHeight");
+        float u0 = number(j, "textureU0"), v0 = number(j, "textureV0");
+        float u1 = number(j, "textureU1"), v1 = number(j, "textureV1");
+        boolean validRegion = u0 < u1 && v0 < v1;
+        textureU0 = validRegion ? u0 : 0;
+        textureV0 = validRegion ? v0 : 0;
+        textureU1 = validRegion ? u1 : 1;
+        textureV1 = validRegion ? v1 : 1;
         scale = number(j, "scale");
         subtitleScale = number(j, "subtitleScale");
         anchorX = number(j, "anchorX");
@@ -79,6 +89,7 @@ public final class TitleStyle {
         j.addProperty("showSubtitle", true);
         j.addProperty("background", false);
         j.addProperty("decoration", true);
+        j.addProperty("biomeSubtitleColor", false);
         j.addProperty("color", "ffffff");
         j.addProperty("subtitleColor", "cccccc");
         j.addProperty("fadeIn", 10);
@@ -96,6 +107,10 @@ public final class TitleStyle {
         j.addProperty("pitch", 1.0);
         j.addProperty("imageWidth", 256);
         j.addProperty("imageHeight", 64);
+        j.addProperty("textureU0", 0);
+        j.addProperty("textureV0", 0);
+        j.addProperty("textureU1", 1);
+        j.addProperty("textureV1", 1);
         return j;
     }
 }

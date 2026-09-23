@@ -200,7 +200,13 @@ public final class ClientProxy extends CommonProxy {
         String title = TitleResources.name(kind, location, style);
         String subtitle = TitleResources.subtitle(kind, location, style, resources.engine());
         if (title.equals(subtitle)) subtitle = "";
-        display = new TitleDisplay(style, title, subtitle, tick, resources);
+        display = new TitleDisplay(
+            style,
+            title,
+            subtitle,
+            tick,
+            resources,
+            TitleResources.subtitleColor(kind, location, style, resources.resolve("biome", location)));
         if (kind.equals("dimension")) controller.blockUntil(tick + style.duration());
         if (ClientConfig.sounds && !style.sound.isEmpty() && style.volume * ClientConfig.volume > 0) {
             Minecraft.getMinecraft()

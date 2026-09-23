@@ -38,6 +38,7 @@ layout.json
 
 .superpowers/
 .local/
+/design-previews/
 run/
 *.log
 

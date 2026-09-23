@@ -1,0 +1,2918 @@
+{
+  "schemaVersion": 1,
+  "defaults": {
+    "biome": {
+      "color": "d9ddd5"
+    }
+  },
+  "rules": [
+    {
+      "id": "builtin:biome_type_plains",
+      "priority": -2000,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "PLAINS"
+        ]
+      },
+      "style": {
+        "color": "c4d58a"
+      }
+    },
+    {
+      "id": "builtin:biome_type_mountain",
+      "priority": -1999,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "MOUNTAIN"
+        ]
+      },
+      "style": {
+        "color": "b8c5cc"
+      }
+    },
+    {
+      "id": "builtin:biome_type_hills",
+      "priority": -1998,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "HILLS"
+        ]
+      },
+      "style": {
+        "color": "b0c49b"
+      }
+    },
+    {
+      "id": "builtin:biome_type_forest",
+      "priority": -1997,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "FOREST"
+        ]
+      },
+      "style": {
+        "color": "9ccc83"
+      }
+    },
+    {
+      "id": "builtin:biome_type_jungle",
+      "priority": -1996,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "JUNGLE"
+        ]
+      },
+      "style": {
+        "color": "79c988"
+      }
+    },
+    {
+      "id": "builtin:biome_type_savanna",
+      "priority": -1995,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "SAVANNA"
+        ]
+      },
+      "style": {
+        "color": "d6c47b"
+      }
+    },
+    {
+      "id": "builtin:biome_type_sandy",
+      "priority": -1994,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "SANDY"
+        ]
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_type_water",
+      "priority": -1993,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "WATER"
+        ]
+      },
+      "style": {
+        "color": "79b7d9"
+      }
+    },
+    {
+      "id": "builtin:biome_type_ocean",
+      "priority": -1992,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "OCEAN"
+        ]
+      },
+      "style": {
+        "color": "6eaadd"
+      }
+    },
+    {
+      "id": "builtin:biome_type_river",
+      "priority": -1991,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "RIVER"
+        ]
+      },
+      "style": {
+        "color": "87c9d9"
+      }
+    },
+    {
+      "id": "builtin:biome_type_swamp",
+      "priority": -1990,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "SWAMP"
+        ]
+      },
+      "style": {
+        "color": "a4bc78"
+      }
+    },
+    {
+      "id": "builtin:biome_type_wasteland",
+      "priority": -1989,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "WASTELAND"
+        ]
+      },
+      "style": {
+        "color": "c6b39a"
+      }
+    },
+    {
+      "id": "builtin:biome_type_mushroom",
+      "priority": -1988,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "MUSHROOM"
+        ]
+      },
+      "style": {
+        "color": "d9a7cd"
+      }
+    },
+    {
+      "id": "builtin:biome_type_magical",
+      "priority": -1987,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "MAGICAL"
+        ]
+      },
+      "style": {
+        "color": "bca9e7"
+      }
+    },
+    {
+      "id": "builtin:biome_type_spooky",
+      "priority": -1986,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "SPOOKY"
+        ]
+      },
+      "style": {
+        "color": "b0a1cc"
+      }
+    },
+    {
+      "id": "builtin:biome_type_cold",
+      "priority": -1985,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "COLD"
+        ]
+      },
+      "style": {
+        "color": "aeceda"
+      }
+    },
+    {
+      "id": "builtin:biome_type_snowy",
+      "priority": -1984,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "SNOWY"
+        ]
+      },
+      "style": {
+        "color": "d0e7ef"
+      }
+    },
+    {
+      "id": "builtin:biome_type_nether",
+      "priority": -1983,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "NETHER"
+        ]
+      },
+      "style": {
+        "color": "eca08a"
+      }
+    },
+    {
+      "id": "builtin:biome_type_end",
+      "priority": -1982,
+      "match": {
+        "kind": "biome",
+        "types": [
+          "END"
+        ]
+      },
+      "style": {
+        "color": "dedbad"
+      }
+    },
+    {
+      "id": "builtin:biome_world_overworld",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "minecraft:overworld"
+      },
+      "style": {
+        "color": "b4d795"
+      }
+    },
+    {
+      "id": "builtin:biome_world_the_nether",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "minecraft:the_nether"
+      },
+      "style": {
+        "color": "e8a084"
+      }
+    },
+    {
+      "id": "builtin:biome_world_the_end",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "minecraft:the_end"
+      },
+      "style": {
+        "color": "dedaad"
+      }
+    },
+    {
+      "id": "builtin:biome_world_twilight_forest",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "twilightforest:twilight_forest"
+      },
+      "style": {
+        "color": "a8ce91"
+      }
+    },
+    {
+      "id": "builtin:biome_world_personal_space",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "personalspace:personal_space"
+      },
+      "style": {
+        "color": "b8e2ef"
+      }
+    },
+    {
+      "id": "builtin:biome_world_toxic_everglades",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "gtnh:toxic_everglades"
+      },
+      "style": {
+        "color": "bec86f"
+      }
+    },
+    {
+      "id": "builtin:biome_world_deep_dark",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "extrautilities:deep_dark"
+      },
+      "style": {
+        "color": "96bbcc"
+      }
+    },
+    {
+      "id": "builtin:biome_world_last_millennium",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "extrautilities:last_millennium"
+      },
+      "style": {
+        "color": "d4c5ad"
+      }
+    },
+    {
+      "id": "builtin:biome_world_outer_lands",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "thaumcraft:outer_lands"
+      },
+      "style": {
+        "color": "bba2dc"
+      }
+    },
+    {
+      "id": "builtin:biome_world_dream_world",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "witchery:dream_world"
+      },
+      "style": {
+        "color": "c9dbdf"
+      }
+    },
+    {
+      "id": "builtin:biome_world_torment",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "witchery:torment"
+      },
+      "style": {
+        "color": "e89c8e"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mirror_world",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "dimension": "witchery:mirror"
+      },
+      "style": {
+        "color": "b6dbe9"
+      }
+    },
+    {
+      "id": "builtin:biome_world_moon",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.moon"
+      },
+      "style": {
+        "color": "d9d8d1"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mars",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.mars"
+      },
+      "style": {
+        "color": "dfaa8d"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mercury",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.mercury"
+      },
+      "style": {
+        "color": "b5aaa3"
+      }
+    },
+    {
+      "id": "builtin:biome_world_venus",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.venus"
+      },
+      "style": {
+        "color": "e4ce95"
+      }
+    },
+    {
+      "id": "builtin:biome_world_phobos",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Phobos"
+      },
+      "style": {
+        "color": "b6a898"
+      }
+    },
+    {
+      "id": "builtin:biome_world_deimos",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Deimos"
+      },
+      "style": {
+        "color": "d4c9b3"
+      }
+    },
+    {
+      "id": "builtin:biome_world_asteroid_belt",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.asteroids"
+      },
+      "style": {
+        "color": "b7b6b0"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ceres",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Ceres"
+      },
+      "style": {
+        "color": "b2c9d4"
+      }
+    },
+    {
+      "id": "builtin:biome_world_io",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.ioJupiter"
+      },
+      "style": {
+        "color": "e6cc79"
+      }
+    },
+    {
+      "id": "builtin:biome_world_europa",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Europa"
+      },
+      "style": {
+        "color": "c5e5eb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ganymede",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Ganymed"
+      },
+      "style": {
+        "color": "b0c5d1"
+      }
+    },
+    {
+      "id": "builtin:biome_world_callisto",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Callisto"
+      },
+      "style": {
+        "color": "c0b7ac"
+      }
+    },
+    {
+      "id": "builtin:biome_world_enceladus",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Enceladus"
+      },
+      "style": {
+        "color": "c9e8ef"
+      }
+    },
+    {
+      "id": "builtin:biome_world_titan",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Titan"
+      },
+      "style": {
+        "color": "d8bc88"
+      }
+    },
+    {
+      "id": "builtin:biome_world_miranda",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Miranda"
+      },
+      "style": {
+        "color": "c6bfdb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_oberon",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Oberon"
+      },
+      "style": {
+        "color": "b6b2ce"
+      }
+    },
+    {
+      "id": "builtin:biome_world_proteus",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Proteus"
+      },
+      "style": {
+        "color": "a9b9b0"
+      }
+    },
+    {
+      "id": "builtin:biome_world_triton",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Triton"
+      },
+      "style": {
+        "color": "d6d3e2"
+      }
+    },
+    {
+      "id": "builtin:biome_world_pluto",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.pluto"
+      },
+      "style": {
+        "color": "d4bdcb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_kuiper_belt",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.kuiperbelt"
+      },
+      "style": {
+        "color": "b2c6de"
+      }
+    },
+    {
+      "id": "builtin:biome_world_haumea",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.haumea"
+      },
+      "style": {
+        "color": "d9d9e4"
+      }
+    },
+    {
+      "id": "builtin:biome_world_makemake",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.makemake"
+      },
+      "style": {
+        "color": "d8ab8e"
+      }
+    },
+    {
+      "id": "builtin:biome_world_jupiter",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.jupiter"
+      },
+      "style": {
+        "color": "e2c4ad"
+      }
+    },
+    {
+      "id": "builtin:biome_world_saturn",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.saturn"
+      },
+      "style": {
+        "color": "e8d395"
+      }
+    },
+    {
+      "id": "builtin:biome_world_uranus",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.uranus"
+      },
+      "style": {
+        "color": "b4dfda"
+      }
+    },
+    {
+      "id": "builtin:biome_world_neptune",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.neptune"
+      },
+      "style": {
+        "color": "a5c1eb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_alpha_centauri_bb",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.CentauriBb"
+      },
+      "style": {
+        "color": "d8ab96"
+      }
+    },
+    {
+      "id": "builtin:biome_world_tau_ceti_e",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.TCetiE"
+      },
+      "style": {
+        "color": "c8ce9b"
+      }
+    },
+    {
+      "id": "builtin:biome_world_vega_b",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Vega1"
+      },
+      "style": {
+        "color": "c6ddf0"
+      }
+    },
+    {
+      "id": "builtin:biome_world_barnarda_c",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Barnarda2"
+      },
+      "style": {
+        "color": "a0d3be"
+      }
+    },
+    {
+      "id": "builtin:biome_world_barnarda_e",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Barnarda4"
+      },
+      "style": {
+        "color": "c0cf9a"
+      }
+    },
+    {
+      "id": "builtin:biome_world_barnarda_f",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Barnarda5"
+      },
+      "style": {
+        "color": "c6b3d9"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ross_128_b",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Ross128b"
+      },
+      "style": {
+        "color": "b9cc9f"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ross_128_ba",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Ross128ba"
+      },
+      "style": {
+        "color": "dccfd9"
+      }
+    },
+    {
+      "id": "builtin:biome_world_space_station",
+      "priority": -2100,
+      "match": {
+        "kind": "biome",
+        "spaceKind": "station"
+      },
+      "style": {
+        "color": "c7d9e5"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mothership",
+      "priority": -2000,
+      "match": {
+        "kind": "biome",
+        "spaceKind": "mothership"
+      },
+      "style": {
+        "color": "b7c7d8"
+      }
+    },
+    {
+      "id": "builtin:biome_world_anubis",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.anubis"
+      },
+      "style": {
+        "color": "cebc9c"
+      }
+    },
+    {
+      "id": "builtin:biome_world_horus",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.horus"
+      },
+      "style": {
+        "color": "e1d29a"
+      }
+    },
+    {
+      "id": "builtin:biome_world_maahes",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.maahes"
+      },
+      "style": {
+        "color": "ddb28e"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mehen_belt",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "planet.asteroidBeltMehen"
+      },
+      "style": {
+        "color": "b9c5d2"
+      }
+    },
+    {
+      "id": "builtin:biome_world_neper",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.neper"
+      },
+      "style": {
+        "color": "bccc85"
+      }
+    },
+    {
+      "id": "builtin:biome_world_seth",
+      "priority": -2200,
+      "match": {
+        "kind": "biome",
+        "body": "moon.seth"
+      },
+      "style": {
+        "color": "b7ccd9"
+      }
+    },
+    {
+      "id": "builtin:biome_ocean",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:ocean"
+      },
+      "style": {
+        "color": "82b8de"
+      }
+    },
+    {
+      "id": "builtin:biome_deep_ocean",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:deep_ocean"
+      },
+      "style": {
+        "color": "82b8de"
+      }
+    },
+    {
+      "id": "builtin:biome_twilight_lake",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:twilight_lake"
+      },
+      "style": {
+        "color": "82b8de"
+      }
+    },
+    {
+      "id": "builtin:biome_barnardacoceans",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:barnardacoceans"
+      },
+      "style": {
+        "color": "82b8de"
+      }
+    },
+    {
+      "id": "builtin:biome_river",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:river"
+      },
+      "style": {
+        "color": "90c8df"
+      }
+    },
+    {
+      "id": "builtin:biome_twilight_stream",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:twilight_stream"
+      },
+      "style": {
+        "color": "90c8df"
+      }
+    },
+    {
+      "id": "builtin:biome_frozenocean",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:frozenocean"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_frozenriver",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:frozenriver"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_ice_plains",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:ice_plains"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_ice_mountains",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:ice_mountains"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_cold_beach",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:cold_beach"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_twilight_glacier",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:twilight_glacier"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_snowy_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:snowy_forest"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_tundra",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:tundra"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_glacier",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:glacier"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_alps",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:alps"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_arctic",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:arctic"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_frost_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:frost_forest"
+      },
+      "style": {
+        "color": "c9e5ee"
+      }
+    },
+    {
+      "id": "builtin:biome_plains",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:plains"
+      },
+      "style": {
+        "color": "b6d689"
+      }
+    },
+    {
+      "id": "builtin:biome_sunflower_plains",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:sunflower_plains"
+      },
+      "style": {
+        "color": "b6d689"
+      }
+    },
+    {
+      "id": "builtin:biome_meadow",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:meadow"
+      },
+      "style": {
+        "color": "b6d689"
+      }
+    },
+    {
+      "id": "builtin:biome_grassland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:grassland"
+      },
+      "style": {
+        "color": "b6d689"
+      }
+    },
+    {
+      "id": "builtin:biome_prairie",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:prairie"
+      },
+      "style": {
+        "color": "b6d689"
+      }
+    },
+    {
+      "id": "builtin:biome_twilight_clearing",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:twilight_clearing"
+      },
+      "style": {
+        "color": "b6d689"
+      }
+    },
+    {
+      "id": "builtin:biome_barnardaclowplains",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:barnardaclowplains"
+      },
+      "style": {
+        "color": "b6d689"
+      }
+    },
+    {
+      "id": "builtin:biome_desert",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:desert"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_deserthills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:deserthills"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_desert_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:desert_hills"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_beach",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:beach"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_dune",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:dune"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_dunes",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:dunes"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_outback",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:outback"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_oasis",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:oasis"
+      },
+      "style": {
+        "color": "e8d39b"
+      }
+    },
+    {
+      "id": "builtin:biome_extreme_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:extreme_hills"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_extreme_hills_edge",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:extreme_hills_edge"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_extreme_hills_plus",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:extreme_hills_plus"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_stone_beach",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:stone_beach"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_crag",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:crag"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_highland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:highland"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_twilight_highlands",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:twilight_highlands"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_highlands_center",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:highlands_center"
+      },
+      "style": {
+        "color": "bbcad0"
+      }
+    },
+    {
+      "id": "builtin:biome_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:forest"
+      },
+      "style": {
+        "color": "9ccc83"
+      }
+    },
+    {
+      "id": "builtin:biome_foresthills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:foresthills"
+      },
+      "style": {
+        "color": "9ccc83"
+      }
+    },
+    {
+      "id": "builtin:biome_forest_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:forest_hills"
+      },
+      "style": {
+        "color": "9ccc83"
+      }
+    },
+    {
+      "id": "builtin:biome_twilight_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:twilight_forest"
+      },
+      "style": {
+        "color": "9ccc83"
+      }
+    },
+    {
+      "id": "builtin:biome_deciduous_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:deciduous_forest"
+      },
+      "style": {
+        "color": "9ccc83"
+      }
+    },
+    {
+      "id": "builtin:biome_woodland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:woodland"
+      },
+      "style": {
+        "color": "9ccc83"
+      }
+    },
+    {
+      "id": "builtin:biome_birch_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:birch_forest"
+      },
+      "style": {
+        "color": "a9cb8f"
+      }
+    },
+    {
+      "id": "builtin:biome_birch_forest_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:birch_forest_hills"
+      },
+      "style": {
+        "color": "a9cb8f"
+      }
+    },
+    {
+      "id": "builtin:biome_birch_forest_m",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:birch_forest_m"
+      },
+      "style": {
+        "color": "a9cb8f"
+      }
+    },
+    {
+      "id": "builtin:biome_seasonal_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:seasonal_forest"
+      },
+      "style": {
+        "color": "a9cb8f"
+      }
+    },
+    {
+      "id": "builtin:biome_taiga",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:taiga"
+      },
+      "style": {
+        "color": "81b89c"
+      }
+    },
+    {
+      "id": "builtin:biome_taigahills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:taigahills"
+      },
+      "style": {
+        "color": "81b89c"
+      }
+    },
+    {
+      "id": "builtin:biome_taiga_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:taiga_hills"
+      },
+      "style": {
+        "color": "81b89c"
+      }
+    },
+    {
+      "id": "builtin:biome_mega_taiga",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mega_taiga"
+      },
+      "style": {
+        "color": "81b89c"
+      }
+    },
+    {
+      "id": "builtin:biome_mega_taiga_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mega_taiga_hills"
+      },
+      "style": {
+        "color": "81b89c"
+      }
+    },
+    {
+      "id": "builtin:biome_coniferous_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:coniferous_forest"
+      },
+      "style": {
+        "color": "81b89c"
+      }
+    },
+    {
+      "id": "builtin:biome_redwood_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:redwood_forest"
+      },
+      "style": {
+        "color": "81b89c"
+      }
+    },
+    {
+      "id": "builtin:biome_cold_taiga",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:cold_taiga"
+      },
+      "style": {
+        "color": "b1d3d7"
+      }
+    },
+    {
+      "id": "builtin:biome_cold_taiga_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:cold_taiga_hills"
+      },
+      "style": {
+        "color": "b1d3d7"
+      }
+    },
+    {
+      "id": "builtin:biome_boreal_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:boreal_forest"
+      },
+      "style": {
+        "color": "b1d3d7"
+      }
+    },
+    {
+      "id": "builtin:biome_roofed_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:roofed_forest"
+      },
+      "style": {
+        "color": "8eae8a"
+      }
+    },
+    {
+      "id": "builtin:biome_dark_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:dark_forest"
+      },
+      "style": {
+        "color": "8eae8a"
+      }
+    },
+    {
+      "id": "builtin:biome_dense_twilight_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:dense_twilight_forest"
+      },
+      "style": {
+        "color": "8eae8a"
+      }
+    },
+    {
+      "id": "builtin:biome_thick_shrubland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:thick_shrubland"
+      },
+      "style": {
+        "color": "8eae8a"
+      }
+    },
+    {
+      "id": "builtin:biome_dark_forest_center",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:dark_forest_center"
+      },
+      "style": {
+        "color": "baa1d2"
+      }
+    },
+    {
+      "id": "builtin:biome_eerie",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:eerie"
+      },
+      "style": {
+        "color": "baa1d2"
+      }
+    },
+    {
+      "id": "builtin:biome_jungle",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:jungle"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_junglehills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:junglehills"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_jungleedge",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:jungleedge"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_jungle_hills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:jungle_hills"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_jungle_edge",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:jungle_edge"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_rainforest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:rainforest"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_tropical_rainforest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:tropical_rainforest"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_bamboo_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:bamboo_forest"
+      },
+      "style": {
+        "color": "77cd92"
+      }
+    },
+    {
+      "id": "builtin:biome_swampland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:swampland"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_swamp",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:swamp"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_twilight_swamp",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:twilight_swamp"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_marsh",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:marsh"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_bog",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:bog"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_wetland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:wetland"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_bayou",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:bayou"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_mangrove",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mangrove"
+      },
+      "style": {
+        "color": "a6bd7b"
+      }
+    },
+    {
+      "id": "builtin:biome_fire_swamp",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:fire_swamp"
+      },
+      "style": {
+        "color": "ebae80"
+      }
+    },
+    {
+      "id": "builtin:biome_savanna",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:savanna"
+      },
+      "style": {
+        "color": "d7c687"
+      }
+    },
+    {
+      "id": "builtin:biome_savanna_plateau",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:savanna_plateau"
+      },
+      "style": {
+        "color": "d7c687"
+      }
+    },
+    {
+      "id": "builtin:biome_oak_savanna",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:oak_savanna"
+      },
+      "style": {
+        "color": "d7c687"
+      }
+    },
+    {
+      "id": "builtin:biome_shrubland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:shrubland"
+      },
+      "style": {
+        "color": "d7c687"
+      }
+    },
+    {
+      "id": "builtin:biome_mesa",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mesa"
+      },
+      "style": {
+        "color": "dfac86"
+      }
+    },
+    {
+      "id": "builtin:biome_mesa_plateau",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mesa_plateau"
+      },
+      "style": {
+        "color": "dfac86"
+      }
+    },
+    {
+      "id": "builtin:biome_mesa_plateau_f",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mesa_plateau_f"
+      },
+      "style": {
+        "color": "dfac86"
+      }
+    },
+    {
+      "id": "builtin:biome_canyon",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:canyon"
+      },
+      "style": {
+        "color": "dfac86"
+      }
+    },
+    {
+      "id": "builtin:biome_badlands",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:badlands"
+      },
+      "style": {
+        "color": "dfac86"
+      }
+    },
+    {
+      "id": "builtin:biome_mushroomisland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mushroomisland"
+      },
+      "style": {
+        "color": "e0a1ad"
+      }
+    },
+    {
+      "id": "builtin:biome_mushroomislandshore",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mushroomislandshore"
+      },
+      "style": {
+        "color": "e0a1ad"
+      }
+    },
+    {
+      "id": "builtin:biome_mushroom_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mushroom_forest"
+      },
+      "style": {
+        "color": "e0a1ad"
+      }
+    },
+    {
+      "id": "builtin:biome_mushroom_island",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mushroom_island"
+      },
+      "style": {
+        "color": "e0a1ad"
+      }
+    },
+    {
+      "id": "builtin:biome_fungal_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:fungal_forest"
+      },
+      "style": {
+        "color": "e0a1ad"
+      }
+    },
+    {
+      "id": "builtin:biome_deep_mushroom_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:deep_mushroom_forest"
+      },
+      "style": {
+        "color": "c19cca"
+      }
+    },
+    {
+      "id": "builtin:biome_firefly_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:firefly_forest"
+      },
+      "style": {
+        "color": "eccf87"
+      }
+    },
+    {
+      "id": "builtin:biome_thornlands",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:thornlands"
+      },
+      "style": {
+        "color": "a5be89"
+      }
+    },
+    {
+      "id": "builtin:biome_enchanted_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:enchanted_forest"
+      },
+      "style": {
+        "color": "bba9e4"
+      }
+    },
+    {
+      "id": "builtin:biome_magical_forest",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:magical_forest"
+      },
+      "style": {
+        "color": "bba9e4"
+      }
+    },
+    {
+      "id": "builtin:biome_mystic_grove",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:mystic_grove"
+      },
+      "style": {
+        "color": "bba9e4"
+      }
+    },
+    {
+      "id": "builtin:biome_eldritch",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:eldritch"
+      },
+      "style": {
+        "color": "be9bdd"
+      }
+    },
+    {
+      "id": "builtin:biome_tainted_land",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:tainted_land"
+      },
+      "style": {
+        "color": "be9bdd"
+      }
+    },
+    {
+      "id": "builtin:biome_taintedlands",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:taintedlands"
+      },
+      "style": {
+        "color": "be9bdd"
+      }
+    },
+    {
+      "id": "builtin:biome_hell",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:hell"
+      },
+      "style": {
+        "color": "e89d88"
+      }
+    },
+    {
+      "id": "builtin:biome_visceral_heap",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:visceral_heap"
+      },
+      "style": {
+        "color": "e89d88"
+      }
+    },
+    {
+      "id": "builtin:biome_sky",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:sky"
+      },
+      "style": {
+        "color": "dcd6aa"
+      }
+    },
+    {
+      "id": "builtin:biome_moon",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:moon"
+      },
+      "style": {
+        "color": "d7d6d0"
+      }
+    },
+    {
+      "id": "builtin:biome_marsflat",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:marsflat"
+      },
+      "style": {
+        "color": "e1aa8c"
+      }
+    },
+    {
+      "id": "builtin:biome_asteroids",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:asteroids"
+      },
+      "style": {
+        "color": "b9b8b3"
+      }
+    },
+    {
+      "id": "builtin:biome_kuiper_belt",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:kuiper_belt"
+      },
+      "style": {
+        "color": "afc6e0"
+      }
+    },
+    {
+      "id": "builtin:biome_venus",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:venus"
+      },
+      "style": {
+        "color": "e8ce93"
+      }
+    },
+    {
+      "id": "builtin:biome_pluto",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:pluto"
+      },
+      "style": {
+        "color": "d6c1d1"
+      }
+    },
+    {
+      "id": "builtin:biome_pluto2",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:pluto2"
+      },
+      "style": {
+        "color": "b9b0c5"
+      }
+    },
+    {
+      "id": "builtin:biome_pluto3",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:pluto3"
+      },
+      "style": {
+        "color": "dacbc7"
+      }
+    },
+    {
+      "id": "builtin:biome_pluto4",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:pluto4"
+      },
+      "style": {
+        "color": "d2e3ed"
+      }
+    },
+    {
+      "id": "builtin:biome_io",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:io"
+      },
+      "style": {
+        "color": "e8cf78"
+      }
+    },
+    {
+      "id": "builtin:biome_ioash",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:ioash"
+      },
+      "style": {
+        "color": "bdb2a4"
+      }
+    },
+    {
+      "id": "builtin:biome_wasteland",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:wasteland"
+      },
+      "style": {
+        "color": "bdb2a4"
+      }
+    },
+    {
+      "id": "builtin:biome_titan",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:titan"
+      },
+      "style": {
+        "color": "ddbe88"
+      }
+    },
+    {
+      "id": "builtin:biome_barnardacshores",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:barnardacshores"
+      },
+      "style": {
+        "color": "a8d4cc"
+      }
+    },
+    {
+      "id": "builtin:biome_barnardachills",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:barnardachills"
+      },
+      "style": {
+        "color": "a9c9a4"
+      }
+    },
+    {
+      "id": "builtin:biome_barnardacflowers",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:barnardacflowers"
+      },
+      "style": {
+        "color": "ddb9d1"
+      }
+    },
+    {
+      "id": "builtin:biome_flower_field",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:flower_field"
+      },
+      "style": {
+        "color": "ddb9d1"
+      }
+    },
+    {
+      "id": "builtin:biome_lavender_fields",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:lavender_fields"
+      },
+      "style": {
+        "color": "ddb9d1"
+      }
+    },
+    {
+      "id": "builtin:biome_cherry_blossom_grove",
+      "priority": -1500,
+      "match": {
+        "kind": "biome",
+        "biome": "*:cherry_blossom_grove"
+      },
+      "style": {
+        "color": "ddb9d1"
+      }
+    },
+    {
+      "id": "builtin:biome_world_overworld_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "minecraft:overworld",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b4d795"
+      }
+    },
+    {
+      "id": "builtin:biome_world_the_nether_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "minecraft:the_nether",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "e8a084"
+      }
+    },
+    {
+      "id": "builtin:biome_world_the_end_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "minecraft:the_end",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "dedaad"
+      }
+    },
+    {
+      "id": "builtin:biome_world_twilight_forest_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "twilightforest:twilight_forest",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "a8ce91"
+      }
+    },
+    {
+      "id": "builtin:biome_world_personal_space_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "personalspace:personal_space",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b8e2ef"
+      }
+    },
+    {
+      "id": "builtin:biome_world_toxic_everglades_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "gtnh:toxic_everglades",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "bec86f"
+      }
+    },
+    {
+      "id": "builtin:biome_world_deep_dark_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "extrautilities:deep_dark",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "96bbcc"
+      }
+    },
+    {
+      "id": "builtin:biome_world_last_millennium_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "extrautilities:last_millennium",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d4c5ad"
+      }
+    },
+    {
+      "id": "builtin:biome_world_outer_lands_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "thaumcraft:outer_lands",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "bba2dc"
+      }
+    },
+    {
+      "id": "builtin:biome_world_dream_world_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "witchery:dream_world",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c9dbdf"
+      }
+    },
+    {
+      "id": "builtin:biome_world_torment_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "witchery:torment",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "e89c8e"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mirror_world_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "dimension": "witchery:mirror",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b6dbe9"
+      }
+    },
+    {
+      "id": "builtin:biome_world_moon_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.moon",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d9d8d1"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mars_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.mars",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "dfaa8d"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mercury_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.mercury",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b5aaa3"
+      }
+    },
+    {
+      "id": "builtin:biome_world_venus_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.venus",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "e4ce95"
+      }
+    },
+    {
+      "id": "builtin:biome_world_phobos_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Phobos",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b6a898"
+      }
+    },
+    {
+      "id": "builtin:biome_world_deimos_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Deimos",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d4c9b3"
+      }
+    },
+    {
+      "id": "builtin:biome_world_asteroid_belt_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.asteroids",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b7b6b0"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ceres_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Ceres",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b2c9d4"
+      }
+    },
+    {
+      "id": "builtin:biome_world_io_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.ioJupiter",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "e6cc79"
+      }
+    },
+    {
+      "id": "builtin:biome_world_europa_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Europa",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c5e5eb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ganymede_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Ganymed",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b0c5d1"
+      }
+    },
+    {
+      "id": "builtin:biome_world_callisto_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Callisto",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c0b7ac"
+      }
+    },
+    {
+      "id": "builtin:biome_world_enceladus_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Enceladus",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c9e8ef"
+      }
+    },
+    {
+      "id": "builtin:biome_world_titan_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Titan",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d8bc88"
+      }
+    },
+    {
+      "id": "builtin:biome_world_miranda_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Miranda",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c6bfdb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_oberon_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Oberon",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b6b2ce"
+      }
+    },
+    {
+      "id": "builtin:biome_world_proteus_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Proteus",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "a9b9b0"
+      }
+    },
+    {
+      "id": "builtin:biome_world_triton_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Triton",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d6d3e2"
+      }
+    },
+    {
+      "id": "builtin:biome_world_pluto_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.pluto",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d4bdcb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_kuiper_belt_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.kuiperbelt",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b2c6de"
+      }
+    },
+    {
+      "id": "builtin:biome_world_haumea_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.haumea",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d9d9e4"
+      }
+    },
+    {
+      "id": "builtin:biome_world_makemake_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.makemake",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d8ab8e"
+      }
+    },
+    {
+      "id": "builtin:biome_world_jupiter_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.jupiter",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "e2c4ad"
+      }
+    },
+    {
+      "id": "builtin:biome_world_saturn_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.saturn",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "e8d395"
+      }
+    },
+    {
+      "id": "builtin:biome_world_uranus_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.uranus",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b4dfda"
+      }
+    },
+    {
+      "id": "builtin:biome_world_neptune_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.neptune",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "a5c1eb"
+      }
+    },
+    {
+      "id": "builtin:biome_world_alpha_centauri_bb_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.CentauriBb",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "d8ab96"
+      }
+    },
+    {
+      "id": "builtin:biome_world_tau_ceti_e_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.TCetiE",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c8ce9b"
+      }
+    },
+    {
+      "id": "builtin:biome_world_vega_b_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Vega1",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c6ddf0"
+      }
+    },
+    {
+      "id": "builtin:biome_world_barnarda_c_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Barnarda2",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "a0d3be"
+      }
+    },
+    {
+      "id": "builtin:biome_world_barnarda_e_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Barnarda4",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c0cf9a"
+      }
+    },
+    {
+      "id": "builtin:biome_world_barnarda_f_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Barnarda5",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c6b3d9"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ross_128_b_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.Ross128b",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b9cc9f"
+      }
+    },
+    {
+      "id": "builtin:biome_world_ross_128_ba_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.Ross128ba",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "dccfd9"
+      }
+    },
+    {
+      "id": "builtin:biome_world_space_station_shared_space",
+      "priority": -1650,
+      "match": {
+        "kind": "biome",
+        "spaceKind": "station",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "c7d9e5"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mothership_shared_space",
+      "priority": -1550,
+      "match": {
+        "kind": "biome",
+        "spaceKind": "mothership",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b7c7d8"
+      }
+    },
+    {
+      "id": "builtin:biome_world_anubis_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.anubis",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "cebc9c"
+      }
+    },
+    {
+      "id": "builtin:biome_world_horus_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.horus",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "e1d29a"
+      }
+    },
+    {
+      "id": "builtin:biome_world_maahes_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.maahes",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "ddb28e"
+      }
+    },
+    {
+      "id": "builtin:biome_world_mehen_belt_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "planet.asteroidBeltMehen",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b9c5d2"
+      }
+    },
+    {
+      "id": "builtin:biome_world_neper_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.neper",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "bccc85"
+      }
+    },
+    {
+      "id": "builtin:biome_world_seth_shared_space",
+      "priority": -1750,
+      "match": {
+        "kind": "biome",
+        "body": "moon.seth",
+        "biome": "*:space"
+      },
+      "style": {
+        "color": "b7ccd9"
+      }
+    }
+  ]
+}

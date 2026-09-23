@@ -9,13 +9,15 @@ Dynamic space stations, motherships, and multiplayer connections have not yet be
 
 ## Installation
 
-Place the normal `travelerstitlesgtnh-0.1.0.jar` build in the client's `mods` directory.
+Place the normal `travelerstitlesgtnh-0.2.0.jar` build in the client's `mods` directory.
 The server does not need this mod. It does not modify world generation or dimension and biome registration.
 Forge is the only required runtime dependency; space mod integrations are optional.
 
 ## Features
 
 - Fading titles when entering a dimension, planet, or biome, with dimension titles taking priority.
+- 54 original built-in English pixel titles for vanilla and magic dimensions, celestial bodies, Ross128, stations, and motherships. No separate resource pack required.
+- Dimension artwork stays English in every game language. Localized biome names use theme colors, shared by standalone biome titles and dimension subtitles.
 - Biome boundary debounce, recent-visit caching, cooldowns, and consolidation of pending changes to the latest location.
 - Basic English and Chinese translations, with runtime fallback to names supplied by other mods.
 - Resource-pack customization of text, colors, PNG titles, backgrounds, icons, sounds, and animation.
@@ -34,6 +36,8 @@ to preview saved settings using the current location in-world or sample text fro
 The preview stays visible and never plays sounds. Forge reset and undo controls remain available;
 Esc discards unsaved edits. Appearance overrides are off by default; disabling them restores resource-pack
 and `overrides.json` styles. Fonts still come from Minecraft / resource packs; text scale and color do not alter PNG titles.
+The main-menu dimension preview uses the built-in Overworld artwork. See [built-in titles](docs/bundled-titles.md)
+for artwork replacement, sizing, biome palettes, and text fallback.
 
 - `config/travelerstitlesgtnh/general.cfg`: behavior, cooldowns, HUD visibility, volume, and dimension/biome appearance overrides.
 - `config/travelerstitlesgtnh/overrides.json`: region names, styles, and explicit local overrides.

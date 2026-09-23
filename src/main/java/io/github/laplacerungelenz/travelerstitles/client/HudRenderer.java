@@ -63,10 +63,20 @@ public final class HudRenderer extends Gui {
             if (d.backgroundImage)
                 texture(s.backgroundTexture, -fullWidth / 2 - 12, -8, fullWidth + 24, fullHeight + 16, alpha);
             if (d.icon) texture(s.icon, -width / 2 - height - 6, 0, height, height, alpha);
-            if (d.image) texture(s.texture, -width / 2, 0, width, height, alpha);
+            if (d.image) texture(
+                s.texture,
+                -width / 2,
+                0,
+                width,
+                height,
+                alpha,
+                s.textureU0,
+                s.textureV0,
+                s.textureU1,
+                s.textureV1);
             else text(mc, d.title, 0, textScale, s.color | opacity, s.shadow);
             if (!d.subtitle.isEmpty())
-                text(mc, d.subtitle, height + s.lineSpacing, subScale, s.subtitleColor | opacity, s.shadow);
+                text(mc, d.subtitle, height + s.lineSpacing, subScale, d.subtitleColor | opacity, s.shadow);
             if (s.decoration) drawRect(
                 (int) (-Math.max(36, width * 0.6F) / 2),
                 (int) (fullHeight + 5),
@@ -91,16 +101,21 @@ public final class HudRenderer extends Gui {
     }
 
     private static void texture(String name, float x, float y, float width, float height, float alpha) {
+        texture(name, x, y, width, height, alpha, 0, 0, 1, 1);
+    }
+
+    private static void texture(String name, float x, float y, float width, float height, float alpha, float u0,
+        float v0, float u1, float v1) {
         Minecraft.getMinecraft()
             .getTextureManager()
             .bindTexture(new ResourceLocation(name));
         GL11.glColor4f(1, 1, 1, alpha);
         Tessellator t = Tessellator.instance;
         t.startDrawingQuads();
-        t.addVertexWithUV(x, y + height, 0, 0, 1);
-        t.addVertexWithUV(x + width, y + height, 0, 1, 1);
-        t.addVertexWithUV(x + width, y, 0, 1, 0);
-        t.addVertexWithUV(x, y, 0, 0, 0);
+        t.addVertexWithUV(x, y + height, 0, u0, v1);
+        t.addVertexWithUV(x + width, y + height, 0, u1, v1);
+        t.addVertexWithUV(x + width, y, 0, u1, v0);
+        t.addVertexWithUV(x, y, 0, u0, v0);
         t.draw();
     }
 }

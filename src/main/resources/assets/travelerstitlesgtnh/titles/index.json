@@ -1,5 +1,1143 @@
 {
   "schemaVersion": 1,
+  "files": [
+    "biome-colors.json"
+  ],
   "defaults": {},
-  "rules": []
+  "rules": [
+    {
+      "id": "builtin:overworld",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "minecraft:overworld"
+      },
+      "style": {
+        "title": "OVERWORLD",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_01.png",
+        "textureU0": 0.028645833333333332,
+        "textureV0": 0.1357421875,
+        "textureU1": 0.498046875,
+        "textureV1": 0.2587890625,
+        "imageWidth": 181,
+        "imageHeight": 32,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:the_nether",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "minecraft:the_nether"
+      },
+      "style": {
+        "title": "THE NETHER",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_01.png",
+        "textureU0": 0.5286458333333334,
+        "textureV0": 0.1357421875,
+        "textureU1": 0.96875,
+        "textureV1": 0.2626953125,
+        "imageWidth": 169,
+        "imageHeight": 33,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:the_end",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "minecraft:the_end"
+      },
+      "style": {
+        "title": "THE END",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_01.png",
+        "textureU0": 0.06575520833333333,
+        "textureV0": 0.4150390625,
+        "textureU1": 0.4498697916666667,
+        "textureV1": 0.53515625,
+        "imageWidth": 148,
+        "imageHeight": 31,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:twilight_forest",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "twilightforest:twilight_forest"
+      },
+      "style": {
+        "title": "TWILIGHT FOREST",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_01.png",
+        "textureU0": 0.5319010416666666,
+        "textureV0": 0.373046875,
+        "textureU1": 0.9524739583333334,
+        "textureV1": 0.5849609375,
+        "imageWidth": 162,
+        "imageHeight": 55,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:personal_space",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "personalspace:personal_space"
+      },
+      "style": {
+        "title": "PERSONAL SPACE",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_01.png",
+        "textureU0": 0.015625,
+        "textureV0": 0.7041015625,
+        "textureU1": 0.513671875,
+        "textureV1": 0.833984375,
+        "imageWidth": 192,
+        "imageHeight": 34,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:toxic_everglades",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "gtnh:toxic_everglades"
+      },
+      "style": {
+        "title": "TOXIC EVERGLADES",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_01.png",
+        "textureU0": 0.54296875,
+        "textureV0": 0.6669921875,
+        "textureU1": 0.9596354166666666,
+        "textureV1": 0.890625,
+        "imageWidth": 160,
+        "imageHeight": 58,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:deep_dark",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "extrautilities:deep_dark"
+      },
+      "style": {
+        "title": "DEEP DARK",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_02.png",
+        "textureU0": 0.03125,
+        "textureV0": 0.1298828125,
+        "textureU1": 0.4993489583333333,
+        "textureV1": 0.251953125,
+        "imageWidth": 180,
+        "imageHeight": 32,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:last_millennium",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "extrautilities:last_millennium"
+      },
+      "style": {
+        "title": "LAST MILLENNIUM",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_02.png",
+        "textureU0": 0.5227864583333334,
+        "textureV0": 0.0869140625,
+        "textureU1": 0.9791666666666666,
+        "textureV1": 0.28125,
+        "imageWidth": 176,
+        "imageHeight": 50,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:outer_lands",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "thaumcraft:outer_lands"
+      },
+      "style": {
+        "title": "OUTER LANDS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_02.png",
+        "textureU0": 0.0234375,
+        "textureV0": 0.4072265625,
+        "textureU1": 0.5104166666666666,
+        "textureV1": 0.5302734375,
+        "imageWidth": 187,
+        "imageHeight": 32,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:dream_world",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "witchery:dream_world"
+      },
+      "style": {
+        "title": "DREAM WORLD",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_02.png",
+        "textureU0": 0.5618489583333334,
+        "textureV0": 0.3671875,
+        "textureU1": 0.9453125,
+        "textureV1": 0.5810546875,
+        "imageWidth": 148,
+        "imageHeight": 55,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:torment",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "witchery:torment"
+      },
+      "style": {
+        "title": "TORMENT",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_02.png",
+        "textureU0": 0.036458333333333336,
+        "textureV0": 0.6875,
+        "textureU1": 0.494140625,
+        "textureV1": 0.8193359375,
+        "imageWidth": 176,
+        "imageHeight": 34,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:mirror_world",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "dimension": "witchery:mirror"
+      },
+      "style": {
+        "title": "MIRROR WORLD",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_02.png",
+        "textureU0": 0.552734375,
+        "textureV0": 0.6630859375,
+        "textureU1": 0.9453125,
+        "textureV1": 0.87890625,
+        "imageWidth": 151,
+        "imageHeight": 56,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:moon",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.moon"
+      },
+      "style": {
+        "title": "MOON",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_03.png",
+        "textureU0": 0.07747395833333333,
+        "textureV0": 0.1181640625,
+        "textureU1": 0.4427083333333333,
+        "textureV1": 0.26171875,
+        "imageWidth": 141,
+        "imageHeight": 37,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:mars",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.mars"
+      },
+      "style": {
+        "title": "MARS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_03.png",
+        "textureU0": 0.560546875,
+        "textureV0": 0.1181640625,
+        "textureU1": 0.931640625,
+        "textureV1": 0.26171875,
+        "imageWidth": 143,
+        "imageHeight": 37,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:mercury",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.mercury"
+      },
+      "style": {
+        "title": "MERCURY",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_03.png",
+        "textureU0": 0.02734375,
+        "textureV0": 0.404296875,
+        "textureU1": 0.509765625,
+        "textureV1": 0.5419921875,
+        "imageWidth": 186,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:venus",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.venus"
+      },
+      "style": {
+        "title": "VENUS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_03.png",
+        "textureU0": 0.544921875,
+        "textureV0": 0.40625,
+        "textureU1": 0.947265625,
+        "textureV1": 0.5458984375,
+        "imageWidth": 155,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:phobos",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Phobos"
+      },
+      "style": {
+        "title": "PHOBOS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_03.png",
+        "textureU0": 0.046223958333333336,
+        "textureV0": 0.67578125,
+        "textureU1": 0.48046875,
+        "textureV1": 0.8134765625,
+        "imageWidth": 167,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:deimos",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Deimos"
+      },
+      "style": {
+        "title": "DEIMOS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_03.png",
+        "textureU0": 0.5390625,
+        "textureV0": 0.6767578125,
+        "textureU1": 0.9524739583333334,
+        "textureV1": 0.8154296875,
+        "imageWidth": 159,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:asteroid_belt",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.asteroids"
+      },
+      "style": {
+        "title": "ASTEROID BELT",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_04.png",
+        "textureU0": 0.030598958333333332,
+        "textureV0": 0.12890625,
+        "textureU1": 0.517578125,
+        "textureV1": 0.2626953125,
+        "imageWidth": 187,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:ceres",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Ceres"
+      },
+      "style": {
+        "title": "CERES",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_04.png",
+        "textureU0": 0.58203125,
+        "textureV0": 0.1259765625,
+        "textureU1": 0.9212239583333334,
+        "textureV1": 0.25390625,
+        "imageWidth": 131,
+        "imageHeight": 33,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:io",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.ioJupiter"
+      },
+      "style": {
+        "title": "IO",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_04.png",
+        "textureU0": 0.15104166666666666,
+        "textureV0": 0.3837890625,
+        "textureU1": 0.37890625,
+        "textureV1": 0.546875,
+        "imageWidth": 88,
+        "imageHeight": 42,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:europa",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Europa"
+      },
+      "style": {
+        "title": "EUROPA",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_04.png",
+        "textureU0": 0.5481770833333334,
+        "textureV0": 0.400390625,
+        "textureU1": 0.9576822916666666,
+        "textureV1": 0.537109375,
+        "imageWidth": 158,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:ganymede",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Ganymed"
+      },
+      "style": {
+        "title": "GANYMEDE",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_04.png",
+        "textureU0": 0.026041666666666668,
+        "textureV0": 0.671875,
+        "textureU1": 0.5065104166666666,
+        "textureV1": 0.8212890625,
+        "imageWidth": 185,
+        "imageHeight": 39,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:callisto",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Callisto"
+      },
+      "style": {
+        "title": "CALLISTO",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_04.png",
+        "textureU0": 0.5462239583333334,
+        "textureV0": 0.6728515625,
+        "textureU1": 0.9772135416666666,
+        "textureV1": 0.822265625,
+        "imageWidth": 166,
+        "imageHeight": 39,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:enceladus",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Enceladus"
+      },
+      "style": {
+        "title": "ENCELADUS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_05.png",
+        "textureU0": 0.020182291666666668,
+        "textureV0": 0.130859375,
+        "textureU1": 0.5091145833333334,
+        "textureV1": 0.263671875,
+        "imageWidth": 188,
+        "imageHeight": 34,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:titan",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Titan"
+      },
+      "style": {
+        "title": "TITAN",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_05.png",
+        "textureU0": 0.5865885416666666,
+        "textureV0": 0.130859375,
+        "textureU1": 0.9303385416666666,
+        "textureV1": 0.2646484375,
+        "imageWidth": 132,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:miranda",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Miranda"
+      },
+      "style": {
+        "title": "MIRANDA",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_05.png",
+        "textureU0": 0.040364583333333336,
+        "textureV0": 0.408203125,
+        "textureU1": 0.4850260416666667,
+        "textureV1": 0.544921875,
+        "imageWidth": 171,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:oberon",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Oberon"
+      },
+      "style": {
+        "title": "OBERON",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_05.png",
+        "textureU0": 0.5462239583333334,
+        "textureV0": 0.408203125,
+        "textureU1": 0.9674479166666666,
+        "textureV1": 0.544921875,
+        "imageWidth": 162,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:proteus",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Proteus"
+      },
+      "style": {
+        "title": "PROTEUS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_05.png",
+        "textureU0": 0.036458333333333336,
+        "textureV0": 0.6845703125,
+        "textureU1": 0.4967447916666667,
+        "textureV1": 0.8193359375,
+        "imageWidth": 177,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:triton",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Triton"
+      },
+      "style": {
+        "title": "TRITON",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_05.png",
+        "textureU0": 0.560546875,
+        "textureV0": 0.6845703125,
+        "textureU1": 0.9505208333333334,
+        "textureV1": 0.8232421875,
+        "imageWidth": 150,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:pluto",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.pluto"
+      },
+      "style": {
+        "title": "PLUTO",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_06.png",
+        "textureU0": 0.059895833333333336,
+        "textureV0": 0.1396484375,
+        "textureU1": 0.4329427083333333,
+        "textureV1": 0.2763671875,
+        "imageWidth": 144,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:kuiper_belt",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.kuiperbelt"
+      },
+      "style": {
+        "title": "KUIPER BELT",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_06.png",
+        "textureU0": 0.4895833333333333,
+        "textureV0": 0.1396484375,
+        "textureU1": 0.9752604166666666,
+        "textureV1": 0.26953125,
+        "imageWidth": 187,
+        "imageHeight": 34,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:haumea",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.haumea"
+      },
+      "style": {
+        "title": "HAUMEA",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_06.png",
+        "textureU0": 0.041666666666666664,
+        "textureV0": 0.3994140625,
+        "textureU1": 0.4609375,
+        "textureV1": 0.5478515625,
+        "imageWidth": 161,
+        "imageHeight": 38,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:makemake",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.makemake"
+      },
+      "style": {
+        "title": "MAKEMAKE",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_06.png",
+        "textureU0": 0.49609375,
+        "textureV0": 0.3994140625,
+        "textureU1": 0.9752604166666666,
+        "textureV1": 0.5341796875,
+        "imageWidth": 184,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:jupiter",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.jupiter"
+      },
+      "style": {
+        "title": "JUPITER",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_06.png",
+        "textureU0": 0.03125,
+        "textureV0": 0.6630859375,
+        "textureU1": 0.466796875,
+        "textureV1": 0.8017578125,
+        "imageWidth": 168,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:saturn",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.saturn"
+      },
+      "style": {
+        "title": "SATURN",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_06.png",
+        "textureU0": 0.5149739583333334,
+        "textureV0": 0.658203125,
+        "textureU1": 0.96484375,
+        "textureV1": 0.80859375,
+        "imageWidth": 173,
+        "imageHeight": 39,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:uranus",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.uranus"
+      },
+      "style": {
+        "title": "URANUS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_07.png",
+        "textureU0": 0.06770833333333333,
+        "textureV0": 0.1484375,
+        "textureU1": 0.4563802083333333,
+        "textureV1": 0.2646484375,
+        "imageWidth": 150,
+        "imageHeight": 30,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:neptune",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.neptune"
+      },
+      "style": {
+        "title": "NEPTUNE",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_07.png",
+        "textureU0": 0.5390625,
+        "textureV0": 0.1484375,
+        "textureU1": 0.9498697916666666,
+        "textureV1": 0.263671875,
+        "imageWidth": 158,
+        "imageHeight": 30,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:alpha_centauri_bb",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.CentauriBb"
+      },
+      "style": {
+        "title": "ALPHA CENTAURI BB",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_07.png",
+        "textureU0": 0.033854166666666664,
+        "textureV0": 0.3857421875,
+        "textureU1": 0.4895833333333333,
+        "textureV1": 0.5712890625,
+        "imageWidth": 175,
+        "imageHeight": 48,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:tau_ceti_e",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.TCetiE"
+      },
+      "style": {
+        "title": "TAU CETI E",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_07.png",
+        "textureU0": 0.537109375,
+        "textureV0": 0.427734375,
+        "textureU1": 0.9654947916666666,
+        "textureV1": 0.548828125,
+        "imageWidth": 165,
+        "imageHeight": 31,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:vega_b",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Vega1"
+      },
+      "style": {
+        "title": "VEGA B",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_07.png",
+        "textureU0": 0.06640625,
+        "textureV0": 0.7021484375,
+        "textureU1": 0.431640625,
+        "textureV1": 0.833984375,
+        "imageWidth": 141,
+        "imageHeight": 34,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:barnarda_c",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Barnarda2"
+      },
+      "style": {
+        "title": "BARNARDA C",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_07.png",
+        "textureU0": 0.5130208333333334,
+        "textureV0": 0.6962890625,
+        "textureU1": 0.9765625,
+        "textureV1": 0.8193359375,
+        "imageWidth": 178,
+        "imageHeight": 32,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:barnarda_e",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Barnarda4"
+      },
+      "style": {
+        "title": "BARNARDA E",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_08.png",
+        "textureU0": 0.026041666666666668,
+        "textureV0": 0.134765625,
+        "textureU1": 0.4921875,
+        "textureV1": 0.255859375,
+        "imageWidth": 179,
+        "imageHeight": 31,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:barnarda_f",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Barnarda5"
+      },
+      "style": {
+        "title": "BARNARDA F",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_08.png",
+        "textureU0": 0.5208333333333334,
+        "textureV0": 0.134765625,
+        "textureU1": 0.974609375,
+        "textureV1": 0.25390625,
+        "imageWidth": 175,
+        "imageHeight": 31,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:ross_128_b",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Ross128b"
+      },
+      "style": {
+        "title": "ROSS 128 B",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_08.png",
+        "textureU0": 0.026041666666666668,
+        "textureV0": 0.408203125,
+        "textureU1": 0.4869791666666667,
+        "textureV1": 0.533203125,
+        "imageWidth": 177,
+        "imageHeight": 32,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:ross_128_ba",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Ross128ba"
+      },
+      "style": {
+        "title": "ROSS 128 BA",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_08.png",
+        "textureU0": 0.515625,
+        "textureV0": 0.408203125,
+        "textureU1": 0.9830729166666666,
+        "textureV1": 0.533203125,
+        "imageWidth": 180,
+        "imageHeight": 32,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:space_station",
+      "priority": -900,
+      "match": {
+        "kind": "dimension",
+        "spaceKind": "station"
+      },
+      "style": {
+        "title": "SPACE STATION",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_08.png",
+        "textureU0": 0.043619791666666664,
+        "textureV0": 0.662109375,
+        "textureU1": 0.4635416666666667,
+        "textureV1": 0.8662109375,
+        "imageWidth": 162,
+        "imageHeight": 53,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:mothership",
+      "priority": -800,
+      "match": {
+        "kind": "dimension",
+        "spaceKind": "mothership"
+      },
+      "style": {
+        "title": "MOTHERSHIP",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_08.png",
+        "textureU0": 0.5188802083333334,
+        "textureV0": 0.703125,
+        "textureU1": 0.9733072916666666,
+        "textureV1": 0.845703125,
+        "imageWidth": 175,
+        "imageHeight": 37,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:anubis",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.anubis"
+      },
+      "style": {
+        "title": "ANUBIS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_09.png",
+        "textureU0": 0.072265625,
+        "textureV0": 0.1123046875,
+        "textureU1": 0.458984375,
+        "textureV1": 0.25,
+        "imageWidth": 149,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:horus",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.horus"
+      },
+      "style": {
+        "title": "HORUS",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_09.png",
+        "textureU0": 0.5696614583333334,
+        "textureV0": 0.111328125,
+        "textureU1": 0.916015625,
+        "textureV1": 0.25,
+        "imageWidth": 133,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:maahes",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.maahes"
+      },
+      "style": {
+        "title": "MAAHES",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_09.png",
+        "textureU0": 0.05078125,
+        "textureV0": 0.390625,
+        "textureU1": 0.4772135416666667,
+        "textureV1": 0.529296875,
+        "imageWidth": 164,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:mehen_belt",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.asteroidBeltMehen"
+      },
+      "style": {
+        "title": "MEHEN BELT",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_09.png",
+        "textureU0": 0.5091145833333334,
+        "textureV0": 0.3955078125,
+        "textureU1": 0.9680989583333334,
+        "textureV1": 0.5302734375,
+        "imageWidth": 177,
+        "imageHeight": 35,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:neper",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.neper"
+      },
+      "style": {
+        "title": "NEPER",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_09.png",
+        "textureU0": 0.08919270833333333,
+        "textureV0": 0.6767578125,
+        "textureU1": 0.4368489583333333,
+        "textureV1": 0.8154296875,
+        "imageWidth": 134,
+        "imageHeight": 36,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    },
+    {
+      "id": "builtin:seth",
+      "priority": -1000,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.seth"
+      },
+      "style": {
+        "title": "SETH",
+        "texture": "travelerstitlesgtnh:textures/titles/atlas_09.png",
+        "textureU0": 0.5826822916666666,
+        "textureV0": 0.6767578125,
+        "textureU1": 0.900390625,
+        "textureV1": 0.8193359375,
+        "imageWidth": 122,
+        "imageHeight": 37,
+        "decoration": false,
+        "showSubtitle": true,
+        "biomeSubtitleColor": true
+      }
+    }
+  ]
 }

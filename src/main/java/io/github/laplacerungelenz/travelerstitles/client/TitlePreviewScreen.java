@@ -26,6 +26,14 @@ public final class TitlePreviewScreen extends GuiScreen {
         buttonList.add(new GuiButton(0, width / 2 - 100, height - 28, I18n.format("gui.done")));
         TitleResources resources = ClientProxy.instance.resources;
         Location location = new LocationResolver().sample(mc);
+        if (location == null && "dimension".equals(kind)) {
+            java.util.Map<String, String> sample = new java.util.HashMap<>();
+            sample.put("dimension", "minecraft:overworld");
+            sample.put("biome", "minecraft:plains");
+            sample.put("biomeName", "Plains");
+            sample.put("biomeId", "1");
+            location = new Location("preview", "plains", sample);
+        }
         TitleStyle style = location == null ? resources.engine()
             .resolve(kind, new Location("", "", java.util.Collections.emptyMap()), ClientConfig.appearance(kind))
             : resources.resolve(kind, location);
@@ -34,7 +42,9 @@ public final class TitlePreviewScreen extends GuiScreen {
         String subtitle = location == null ? I18n.format("ttgtnh.gui.sampleSubtitle")
             : TitleResources.subtitle(kind, location, style, resources.engine());
         if (!style.showSubtitle || title.equals(subtitle)) subtitle = "";
-        display = new TitleDisplay(style, title, subtitle, 0, resources);
+        int subtitleColor = location == null ? style.subtitleColor
+            : TitleResources.subtitleColor(kind, location, style, resources.resolve("biome", location));
+        display = new TitleDisplay(style, title, subtitle, 0, resources, subtitleColor);
     }
 
     @Override

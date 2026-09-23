@@ -72,12 +72,22 @@ Set style `alias` to a custom alias to select a dedicated translation key.
 | texture | Whole title PNG; replaces text if available | `namespace:path.png` |
 | backgroundTexture, icon | Optional background / icon PNG | same resource syntax |
 | imageWidth, imageHeight | Whole title image display size, in GUI pixels | 1–4096; default 256/64 |
+| textureU0, textureV0, textureU1, textureV1 | Normalized title texture region (atlas crop) | 0–1; default 0, 0, 1, 1 |
+| biomeSubtitleColor | Use the resolved biome color for automatic biome subtitles | false; true for built-in dimension art |
 | sound | Sound event identifier | empty = silent |
 | volume, pitch | Per-title sound volume / pitch | 0–1 / 0.5–2 |
 
 Total title time is fadeIn + hold + fadeOut. All-zero duration displays nothing. Long text scales down
 to fit maxWidth using the game's actual font measurements; no glyphs are replaced or fonts bundled.
 Missing images fall back to text. Invalid style fields retain lower-priority values and produce bounded warnings.
+Reversed or empty texture regions fall back to the full image. Replacing `texture` with a different path
+resets inherited atlas coordinates unless the new style supplies its own region. Backgrounds and icons
+always use their full image. Explicit `subtitleColor` overrides, including GUI appearance overrides,
+disable automatic biome subtitle colors unless that style also sets `biomeSubtitleColor: true`.
+Literal/translated custom subtitles and mothership orbital subtitles keep their own subtitle color.
+
+The mod ships low-priority dimension artwork and biome palettes. Ordinary pack rules and local overrides
+take precedence. See [built-in titles](bundled-titles.md) for the catalogue and examples.
 
 ## Resource-pack layout
 

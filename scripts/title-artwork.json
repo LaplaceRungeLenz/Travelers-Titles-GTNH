@@ -1,0 +1,599 @@
+{
+  "artwork": "Original English pixel title artwork; approved design V2, created with OpenAI image generation. No third-party resource-pack textures.",
+  "titles": [
+    {
+      "id": "overworld",
+      "title": "OVERWORLD",
+      "atlas": "atlas_01.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "dimension": "minecraft:overworld"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "the_nether",
+      "title": "THE NETHER",
+      "atlas": "atlas_01.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "dimension": "minecraft:the_nether"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "the_end",
+      "title": "THE END",
+      "atlas": "atlas_01.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "dimension": "minecraft:the_end"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "twilight_forest",
+      "title": "TWILIGHT FOREST",
+      "atlas": "atlas_01.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "dimension": "twilightforest:twilight_forest"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "personal_space",
+      "title": "PERSONAL SPACE",
+      "atlas": "atlas_01.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "dimension": "personalspace:personal_space"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "toxic_everglades",
+      "title": "TOXIC EVERGLADES",
+      "atlas": "atlas_01.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "dimension": "gtnh:toxic_everglades"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "deep_dark",
+      "title": "DEEP DARK",
+      "atlas": "atlas_02.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "dimension": "extrautilities:deep_dark"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "last_millennium",
+      "title": "LAST MILLENNIUM",
+      "atlas": "atlas_02.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "dimension": "extrautilities:last_millennium"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "outer_lands",
+      "title": "OUTER LANDS",
+      "atlas": "atlas_02.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "dimension": "thaumcraft:outer_lands"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "dream_world",
+      "title": "DREAM WORLD",
+      "atlas": "atlas_02.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "dimension": "witchery:dream_world"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "torment",
+      "title": "TORMENT",
+      "atlas": "atlas_02.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "dimension": "witchery:torment"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "mirror_world",
+      "title": "MIRROR WORLD",
+      "atlas": "atlas_02.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "dimension": "witchery:mirror"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "moon",
+      "title": "MOON",
+      "atlas": "atlas_03.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.moon"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "mars",
+      "title": "MARS",
+      "atlas": "atlas_03.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.mars"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "mercury",
+      "title": "MERCURY",
+      "atlas": "atlas_03.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.mercury"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "venus",
+      "title": "VENUS",
+      "atlas": "atlas_03.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.venus"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "phobos",
+      "title": "PHOBOS",
+      "atlas": "atlas_03.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Phobos"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "deimos",
+      "title": "DEIMOS",
+      "atlas": "atlas_03.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Deimos"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "asteroid_belt",
+      "title": "ASTEROID BELT",
+      "atlas": "atlas_04.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.asteroids"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "ceres",
+      "title": "CERES",
+      "atlas": "atlas_04.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Ceres"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "io",
+      "title": "IO",
+      "atlas": "atlas_04.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.ioJupiter"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "europa",
+      "title": "EUROPA",
+      "atlas": "atlas_04.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Europa"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "ganymede",
+      "title": "GANYMEDE",
+      "atlas": "atlas_04.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Ganymed"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "callisto",
+      "title": "CALLISTO",
+      "atlas": "atlas_04.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Callisto"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "enceladus",
+      "title": "ENCELADUS",
+      "atlas": "atlas_05.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Enceladus"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "titan",
+      "title": "TITAN",
+      "atlas": "atlas_05.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Titan"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "miranda",
+      "title": "MIRANDA",
+      "atlas": "atlas_05.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Miranda"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "oberon",
+      "title": "OBERON",
+      "atlas": "atlas_05.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Oberon"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "proteus",
+      "title": "PROTEUS",
+      "atlas": "atlas_05.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Proteus"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "triton",
+      "title": "TRITON",
+      "atlas": "atlas_05.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Triton"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "pluto",
+      "title": "PLUTO",
+      "atlas": "atlas_06.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.pluto"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "kuiper_belt",
+      "title": "KUIPER BELT",
+      "atlas": "atlas_06.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.kuiperbelt"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "haumea",
+      "title": "HAUMEA",
+      "atlas": "atlas_06.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.haumea"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "makemake",
+      "title": "MAKEMAKE",
+      "atlas": "atlas_06.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.makemake"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "jupiter",
+      "title": "JUPITER",
+      "atlas": "atlas_06.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.jupiter"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "saturn",
+      "title": "SATURN",
+      "atlas": "atlas_06.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.saturn"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "uranus",
+      "title": "URANUS",
+      "atlas": "atlas_07.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.uranus"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "neptune",
+      "title": "NEPTUNE",
+      "atlas": "atlas_07.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.neptune"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "alpha_centauri_bb",
+      "title": "ALPHA CENTAURI BB",
+      "atlas": "atlas_07.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.CentauriBb"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "tau_ceti_e",
+      "title": "TAU CETI E",
+      "atlas": "atlas_07.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.TCetiE"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "vega_b",
+      "title": "VEGA B",
+      "atlas": "atlas_07.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Vega1"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "barnarda_c",
+      "title": "BARNARDA C",
+      "atlas": "atlas_07.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Barnarda2"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "barnarda_e",
+      "title": "BARNARDA E",
+      "atlas": "atlas_08.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Barnarda4"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "barnarda_f",
+      "title": "BARNARDA F",
+      "atlas": "atlas_08.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Barnarda5"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "ross_128_b",
+      "title": "ROSS 128 B",
+      "atlas": "atlas_08.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.Ross128b"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "ross_128_ba",
+      "title": "ROSS 128 BA",
+      "atlas": "atlas_08.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.Ross128ba"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "space_station",
+      "title": "SPACE STATION",
+      "atlas": "atlas_08.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "spaceKind": "station"
+      },
+      "priority": -900
+    },
+    {
+      "id": "mothership",
+      "title": "MOTHERSHIP",
+      "atlas": "atlas_08.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "spaceKind": "mothership"
+      },
+      "priority": -800
+    },
+    {
+      "id": "anubis",
+      "title": "ANUBIS",
+      "atlas": "atlas_09.png",
+      "cell": 0,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.anubis"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "horus",
+      "title": "HORUS",
+      "atlas": "atlas_09.png",
+      "cell": 1,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.horus"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "maahes",
+      "title": "MAAHES",
+      "atlas": "atlas_09.png",
+      "cell": 2,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.maahes"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "mehen_belt",
+      "title": "MEHEN BELT",
+      "atlas": "atlas_09.png",
+      "cell": 3,
+      "match": {
+        "kind": "dimension",
+        "body": "planet.asteroidBeltMehen"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "neper",
+      "title": "NEPER",
+      "atlas": "atlas_09.png",
+      "cell": 4,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.neper"
+      },
+      "priority": -1000
+    },
+    {
+      "id": "seth",
+      "title": "SETH",
+      "atlas": "atlas_09.png",
+      "cell": 5,
+      "match": {
+        "kind": "dimension",
+        "body": "moon.seth"
+      },
+      "priority": -1000
+    }
+  ]
+}

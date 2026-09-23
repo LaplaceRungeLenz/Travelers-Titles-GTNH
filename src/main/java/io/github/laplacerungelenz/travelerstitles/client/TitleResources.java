@@ -166,6 +166,15 @@ public final class TitleResources implements IResourceManagerReloadListener {
         return "";
     }
 
+    public static int subtitleColor(String kind, Location location, TitleStyle style, TitleStyle biome) {
+        if (!style.biomeSubtitleColor || !"dimension".equals(kind)
+            || !biome.enabled
+            || !style.subtitle.isEmpty()
+            || !style.subtitleKey.isEmpty()
+            || "mothership".equals(location.get("spaceKind"))) return style.subtitleColor;
+        return biome.color;
+    }
+
     private static String read(InputStream stream) throws IOException {
         try (Reader reader = new InputStreamReader(stream, StandardCharsets.UTF_8)) {
             StringBuilder data = new StringBuilder();
