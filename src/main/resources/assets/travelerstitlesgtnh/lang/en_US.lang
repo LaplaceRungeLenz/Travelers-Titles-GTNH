@@ -115,7 +115,6 @@ travelerstitlesgtnh.biome.thaumcraft.tainted_land=Tainted Land
 travelerstitlesgtnh.biome.biomesoplenty.visceral_heap=Visceral Heap
 
 # In-game appearance configuration
-ttgtnh.gui.pause=Title settings
 ttgtnh.gui.general=Behavior and sound
 ttgtnh.gui.dimension=Dimension title appearance
 ttgtnh.gui.biome=Biome title appearance
