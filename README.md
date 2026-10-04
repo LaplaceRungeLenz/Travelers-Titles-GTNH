@@ -11,7 +11,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/baea474f-e09d-4f8e-a601-73260153299d" />
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ad39b734-3e75-488a-b398-e5eccfad786b" />
 
-将 `travelerstitlesgtnh-0.1.0.jar` 放入客户端 `mods` 文件夹，服务器无需安装。
+将 `travelerstitlesgtnh-0.2.0.jar` 放入客户端 `mods` 文件夹，服务器无需安装。
 
 配置入口：**Mod 列表 → Traveler's Titles GTNH → Config**，进入世界后同样可用。修改外观时，先开启对应分类的“启用外观覆盖”，再点击“完成”保存生效。
 

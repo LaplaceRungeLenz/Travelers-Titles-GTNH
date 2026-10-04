@@ -8,7 +8,7 @@ A client-side Minecraft 1.7.10 Forge / GT New Horizons mod that displays fading 
 - In-game controls for text scale, colors, position, display behavior, and volume, with save, reset, and preview.
 - Resource packs and JSON can customize text, images, styles, sounds, and animations.
 
-Place `travelerstitlesgtnh-0.1.0.jar` in the client's `mods` folder. No server installation is required.
+Place `travelerstitlesgtnh-0.2.0.jar` in the client's `mods` folder. No server installation is required.
 
 Open **Mod list → Traveler's Titles GTNH → Config**, including while in a world. Enable “Override resource-pack appearance” in the relevant category and click “Done” to apply appearance changes.
 
